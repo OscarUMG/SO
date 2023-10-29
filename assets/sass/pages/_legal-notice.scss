@@ -1,0 +1,27 @@
+.policy-page-section {
+	padding: 110px 0;
+	@include bp(mdx) {
+		padding: 80px;
+	}
+	.policy-inner {
+		h3, h4{
+			color: $secondary-color;
+		}
+		p {
+			color: $text-color;
+			margin-bottom: 10px;
+			font-weight: 400;
+			font-size: 15px;
+			font-family: $primary-font;
+			line-height: 1.5;
+		}
+		ul {
+			li {
+				color: $text-color;
+				font-family: $title-font;
+				font-size: 13px;
+				font-weight: 600;
+			}
+		}
+	}
+}

@@ -1,0 +1,62 @@
+.home-banner {
+    background-color: $primary-color;
+    min-height: 720px;
+    position: relative;
+    z-index: 1;
+    .banner-content {
+    	margin-right: 30px;
+        padding-top: 32px;
+        padding-bottom: 160px;
+        @include bp(lgx) {
+            padding-bottom: 32px;
+        }
+    	@include bp(mdx) {
+    		margin-right: 0;
+    	}
+        @include bp(smx) {
+            padding: 30px 0;
+        }
+        .banner-title {
+            h1 {
+                color: $light-color;
+            }
+        }
+        .banner-text {
+            p {
+                color: #f8f8f8;
+                margin-bottom: 35px;
+            }
+        }
+    }
+    .banner-left,
+    .banner-right {
+        position: relative;
+        z-index: 1;
+
+        .banner-img {
+            @include bp(mdx){
+                text-align: center;
+            }
+        }
+    }
+    .image-overlay {
+        background-image: url(assets/img/educator-img4.png);
+        opacity: 0.1;
+        background-repeat: no-repeat;
+        background-position: top right;
+    }
+    .image-overlay-oval {
+        background-image: url(assets/img/educator-img2.png);
+        opacity: 0.8;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: contain;
+    }
+    .overlay-image {
+        background-image: url(assets/img/educator-img5.png);
+        opacity: 0.5;
+        background-position: bottom center;
+        background-repeat: no-repeat;
+        background-size: 13% auto;
+    }
+}

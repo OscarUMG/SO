@@ -1,0 +1,99 @@
+.home-testimonial-section {
+    margin: 110px 0;
+    @include bp(mdx) {
+        margin: 80px 0;
+    }
+    .testimonial-section-info {
+        margin-bottom: 55px;
+    }
+    .right-content {
+        margin-left: 28px;
+        @include bp(lgx) {
+            margin-left: 0;
+        }
+    }
+    .left-content {
+        margin-right: 28px;
+        @include bp(lgx) {
+            margin-right: 0;
+        }
+    }
+    .client-content {
+        padding: 50px;
+        border-radius: 25px;
+        box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
+        background-image: url(assets/img/educator-img1.png);
+        background-position: 32% 70%;
+        background-repeat: no-repeat;
+        position: relative;
+        z-index: 1;
+        @include bp(xlx) {
+            background-position: 20% 70%;
+        }
+        @include bp(lgx) {
+            margin-top: 30px;
+            padding: 50px 20px;
+            background-position: 49% 77%;
+            background-size: auto;
+        }
+        @include bp(mdx){
+            background-position: 20% 70%;
+        }
+        @include bp(xsx) {
+            background-position: 49% 77%;
+            background-size: 27%;
+        }
+        .circle-patten {
+            background-image: url(assets/img/educator-img4.png);
+            background-position: bottom left;
+            background-repeat: no-repeat;
+            opacity: 0.15;
+        }
+        .client-review {
+            margin-bottom: 20px;
+        }
+        .author-content {
+            display: flex;
+            justify-content: right;
+            align-items: flex-end;
+            .author-img {
+                margin-left: 15px;
+                height: 77px;
+                width: 77px;
+                border-radius: 50%;
+                overflow: hidden;
+                img {
+                    width: 100%;
+                    object-position: center;
+                    object-fit: cover;
+                }
+            }
+            @include bp(lgx) {
+                justify-content: space-between;
+            }
+            @include bp(mdx) {
+                justify-content: right;
+            }
+            @include bp(xsx) {
+                justify-content: space-between;
+            }
+        }
+        .author-info {
+            text-align: right;
+            .author-name {
+                margin-bottom: 7px;
+                line-height: 1;
+            }
+            .author-title {
+                font-size: 13px;
+                color: $secondary-color;
+                font-weight: 400;
+                line-height: 1;
+                display: inline-block;
+            }
+        }
+    }
+    .testimonial-btn {
+        margin-top: 70px;
+    }
+}

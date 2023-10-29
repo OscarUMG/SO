@@ -1,0 +1,104 @@
+.home-blog-section {
+    margin-bottom: 110px;
+    @include bp(mdx) {
+        margin-bottom: 80px;
+    }
+    .overlay-wrapper {
+        position: relative;
+        z-index: 1;
+        .c-patten {
+            background-image: url(assets/img/educator-img3.png);
+            background-position: 100% 15%;
+            background-repeat: no-repeat;
+            opacity: 0.3;
+        }
+    }
+    .blog-section-info {
+        margin-bottom: 55px;
+    }
+    .inner-blog-wrap {
+        display: grid;
+        grid-row-gap: 35px;
+        grid-column-gap: 40px;
+        grid-template-columns: repeat(3, 1fr);
+        @include bp(lgx) {
+            grid-template-columns: repeat(2, 1fr);
+            .item-3 {
+                grid-column: 1 / span 2;
+            }
+        }
+        @include bp(smx) {
+            grid-template-columns: repeat(1, 1fr);
+            .item-3 {
+                grid-column: 1 / span 1;
+            }
+        }
+        .post {
+            border-radius: 25px;
+            overflow: hidden;
+            box-shadow: 0 0 10px 0 rgba(0, 0, 0, .15);
+            &:hover {
+                box-shadow: 0 0 30px 0 rgba(0, 0, 0, .15);
+                .feature-image {
+                    &:before {
+                        content: none;
+                    }
+                }
+            }
+            .feature-image {
+                position: relative;
+                z-index: 1;
+                cursor: pointer;
+                &:before {
+                    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.35)), color-stop(75%, transparent));
+                    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.35), transparent 75%);
+                    background-repeat: no-repeat;
+                    content: "";
+                    height: 100%;
+                    width: 100%;
+                    position: absolute;
+                    bottom: 0;
+                    opacity: 1;
+                    -webkit-transition: all 0.3s ease-out;
+                    -o-transition: all 0.3s ease-out;
+                    transition: all 0.3s ease-out;
+                }
+                .cat-meta {
+                    position: absolute;
+                    top: 20px;
+                    right: 20px;
+                    a {
+                        padding: 7px 14px;
+                        background-color: $secondary-color;
+                        color: $light-color;
+                        font-size: 12px;
+                        font-weight: 400;
+                        line-height: 1;
+                        border-radius: 20px;
+                        display: inline-block;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+            .entry-content {
+                padding: 35px 40px 35px 40px;
+                h4 {
+                    margin-bottom: 15px;
+                }
+                .blog-info {
+                    margin-bottom: 0;
+                    color: #777;
+                }
+            }
+        }
+    }
+}
+.slider-section {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+    .client-item {
+        figure {
+            width: 124px;
+        }
+    }
+}

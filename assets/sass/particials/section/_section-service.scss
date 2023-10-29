@@ -1,0 +1,105 @@
+.home-service {
+    margin: 110px 0;
+    position: relative;
+    z-index: 1;
+    @include bp(mdx) {
+        margin: 80px 0;
+    }
+    .pattern-overlay {
+        background-image: url(assets/img/educator-img5.png);
+        background-size: 11% auto;
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        opacity: 0.5;
+    }
+    .service-wrapper {
+        position: relative;
+        z-index: 1;
+        .pattern-circle {
+            background-image: url(assets/img/educator-img4.png);
+            background-position: center center;
+            background-repeat: no-repeat;
+            opacity: 0.2;
+        }
+        .service-content {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-column-gap: 45px;
+            margin-bottom: 45px;
+            @include bp(xlx) {
+                grid-column-gap: 25px;
+            }
+            @include bp(lgx) {
+                grid-column-gap: 30px;
+                grid-row-gap: 45px;
+                grid-template-columns: repeat(2, 1fr);
+            }
+            @include bp(xsx) {
+                grid-template-columns: repeat(1, 1fr);
+            }
+            .section-head {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                h2 {
+                    margin-bottom: 40px;
+                }
+            }
+            .course-type {
+                border: 2px dashed #d9d9d9;
+                border-radius: 25px;
+                padding: 40px;
+                text-align: center;
+                .course-icon {
+                    margin-bottom: 25px;
+                    i {
+                        font-size: 50px;
+                        padding: 45px;
+                        display: inline-block;
+                        border-radius: 100%;
+                        background-color: #f8f8f8;
+                        color: $primary-color;
+                    }
+                }
+                .course-title {
+                    margin-bottom: 10px;
+                }
+                .course-durations {
+                    margin-bottom: 0;
+                    color: $secondary-color;
+                }
+            }
+            .course-form {
+                grid-column: 3 / span 2;
+                padding: 50px;
+                background-color: #f8f8f8;
+                border-radius: 25px;
+                @include bp(lgx) {
+                    grid-column: 1 / span 2;
+                }
+                @include bp(xsx) {
+                    grid-column: 1;
+                    padding: 50px 20px;
+                }
+                input[type="text"],
+                input[type="email"] {
+                    background-color: $light-color;
+                    color: #414141;
+                    border: 1px solid rgba(242, 64, 128, 0.13);
+                    @include border-radius(25px);
+                    padding: 12px 20px;
+                    height: 50px;
+                    margin-bottom: 15px;
+                    width: 100%;
+                    &:focus {
+                        box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+                        outline: 0;
+                    }
+                }
+                .button-round-secondary {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,137 @@
+.contact-page-section {
+    padding: 0 0 110px;
+    .map-section {
+        border-radius: 25px;
+        display: block;
+        overflow: hidden;
+    }
+    .contact-form-inner {
+        position: relative;
+        z-index: 1;
+        margin-top: 100px;
+        .zigzag-patten {
+            background-image: url(assets/img/educator-img5.png);
+            background-position: bottom center;
+            background-repeat: no-repeat;
+            background-size: 20% auto;
+            opacity: 0.5;
+        }
+        .contact-detail-container {
+            .section-disc {
+                margin-bottom: 20px;
+                p {
+                    margin-bottom: 0;
+                }
+            }
+            .contact-details-list {
+                margin-right: 50px;
+                @include bp(lgx) {
+                    margin-right: 0;
+                }
+                ul {
+                    padding: 0;
+                    margin: 0;
+                    list-style-type: none;
+                    li {
+                        display: flex;
+                        align-items: center;
+                        margin-bottom: 20px;
+                        padding: 20px 50px 20px 30px;
+                        background-color: #f8f8f8;
+                        border-radius: 25px;
+                        .icon {
+                            margin-right: 30px;
+                            text-align: center;
+                            display: inline-block;
+                            i {
+                                width: 80px;
+                                height: 80px;
+                                line-height: 80px;
+                                background-color: $primary-color;
+                                color: $light-color;
+                                font-size: 40px;
+                                border-radius: 50%;
+                                display: inline-block;
+                                position: relative;
+                                margin-right: 0;
+                                @include bp(smx) {
+                                    width: 60px;
+                                    height: 60px;
+                                    line-height: 60px;
+                                    font-size: 30px;
+                                }
+                            }
+                        }
+                        .details-content {
+                            h5 {
+                                margin-bottom: 5px;
+                            }
+                            span {
+                                display: inline-block;
+                            }
+                        }
+                    }
+                    @include bp(xsx) {
+                        li {
+                            padding: 20px;
+                            .icon {
+                                margin-right: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .contact-from-wrap {
+            position: relative;
+            z-index: 2;
+            border-radius: 25px;
+            padding: 70px 50px 70px 50px;
+            box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.03);
+            background-color: $light-color;
+            @include bp(xsx) {
+                padding: 50px 20px;
+            }
+            .circle-patten {
+                background-image: url(assets/img/educator-img4.png);
+                background-position: bottom right;
+                background-repeat: no-repeat;
+                opacity: 0.5;
+            }
+            .contact-from {
+                display: flex;
+                flex-wrap: wrap;
+                margin-left: -10px;
+                margin-right: -10px;
+                .width-full {
+                    width: 100%;
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+                }
+                p {
+                    width: 50%;
+                    padding: 0 15px;
+                    margin-bottom: 30px;
+                    @include bp(smx){
+                        width: 100%;
+                        margin-bottom: 20px;
+                        padding: 0;
+                    }
+                    input,
+                    textarea {
+                        border: 0;
+                        padding: 12px 20px;
+                        width: 100%;
+                    }
+                    input[type=submit] {
+                        width: 100%;
+                        min-height: 40px;
+                        padding: 16px 28px;
+                        background-color: $secondary-color;
+                    }
+                }
+            }
+        }
+    }
+}

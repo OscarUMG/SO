@@ -1,0 +1,462 @@
+body {
+    background-color: $light-color;
+    @include font-size(15);
+    color: $text-color;
+    font-family: $primary-font;
+    font-weight: normal;
+    font-style: normal;
+    line-height: $body-line-height;
+    -webkit-font-smoothing: antialiased;
+    word-wrap: break-word;
+    scroll-behavior: smooth;
+    transition: all 0.5s;
+
+    @include bp(mdx) {
+        font-size: 14px;
+    }
+}
+
+p {
+    line-height: 1.7;
+    margin: 0 0 15px;
+    word-wrap: break-word;
+
+    @include bp (mdx) {
+        font-size: 14px;
+    }
+}
+
+dfn,
+cite,
+em,
+i {
+    font-style: italic;
+}
+
+blockquote,
+pre {
+    background-color: darken($light-color, 2%);
+    border-width: 0 0 0 3px;
+    border-color: darken($light-color, 15%);
+    border-style: solid;
+    @include box-shadow(none);
+    color: lighten($dark-color, 10%);
+    font-family: $primary-font;
+    font-style: italic;
+    margin: 0 0 15px 0;
+    padding: 25px 22px;
+    @include font-size(18);
+
+    p {
+        margin-bottom: 0;
+    }
+}
+
+blockquote {
+    background-color: transparent;
+    border-left: none;
+    color: $title-color;
+    margin: 40px 0;
+    text-align: center;
+    position: relative;
+    padding: 30px;
+
+    &:before {
+        background-color: #fff;
+        color: lighten($dark-color, 20%);
+        content: "\f10d";
+        font-family: 'Font Awesome 5 Free';
+        font-weight: 900;
+        @include font-size(20);
+        float: left;
+        margin-right: 20px;
+        line-height: 1;
+        font-style: normal;
+        position: absolute;
+        left: 50%;
+        @include translate(-50%, 0);
+        top: -10px;
+        padding: 0 10px;
+        z-index: 9;
+    }
+
+    &:after {
+        border-bottom: 2px solid #ddd;
+        border-top: 2px solid #ddd;
+        content: "";
+        bottom: 0;
+        content: "";
+        display: block;
+        left: 50%;
+        @include translate(-50%, 0);
+        position: absolute;
+        top: 0;
+        width: 200px;
+    }
+
+    p {
+        font-size: 28px;
+        line-height: 1.4;
+    }
+
+    cite {
+        color: #8d8d8d;
+        display: block;
+        font-style: normal;
+        @include font-size(13);
+    }
+}
+
+abbr,
+acronym {
+    border-bottom: 1px dotted lighten($dark-color, 30%);
+    cursor: help;
+}
+
+mark,
+ins {
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+big {
+    font-size: 125%;
+}
+
+b,
+strong {
+    font-weight: 700;
+}
+
+iframe {
+    display: block;
+    width: 100%;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: top;
+}
+
+/*--------------------------------------------------------------
+# Heading
+--------------------------------------------------------------*/
+%heading-group {
+    color: $title-color;
+    font-family: $title-font;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    @extend %heading-group;
+    margin: 0 0 20px;
+    line-height: $title-line-height;
+
+    a {
+        color: inherit;
+    }
+}
+
+h1 {
+    @include font-size(60);
+    font-weight: 900;
+}
+
+h2 {
+    @include font-size(42);
+    font-weight: 900;
+}
+
+h3 {
+    @include font-size(32);
+    font-weight: 800;
+}
+
+h4 {
+    @include font-size(24);
+    font-weight: 800;
+}
+
+h5 {
+    @include font-size(18);
+    font-weight: 700;
+}
+
+h6 {
+    @include font-size(15);
+    font-weight: 700;
+}
+
+@include bp(mdx) {
+    h1 {
+        @include font-size(34);
+    }
+
+    h2 {
+        @include font-size(28);
+    }
+
+    h3 {
+        @include font-size(22);
+    }
+
+    h4 {
+        @include font-size(18);
+    }
+
+    h5 {
+        @include font-size(15);
+    }
+
+    h6 {
+        @include font-size(13);
+    }
+}
+
+/*--------------------------------------------------------------
+# Lists
+--------------------------------------------------------------*/
+ul,
+ol {
+    margin: 0 0 1.5em 0.875em;
+}
+
+ul {
+    list-style: disc;
+}
+
+ol {
+    list-style: decimal;
+}
+
+li>ul,
+li>ol {
+    margin-bottom: 0;
+    margin-left: 1.5em;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    margin: 0 1.5em 1.5em;
+}
+
+/*--------------------------------------------------------------
+# Links
+--------------------------------------------------------------*/
+a {
+    color: #0085BA;
+    text-decoration: none;
+    @include transition (color 0.3s);
+
+    &:hover,
+    &:focus,
+    &:active {
+        color: $hover-color;
+        text-decoration: none;
+        outline: 0;
+    }
+
+    &:visited {
+        text-decoration: none;
+        outline: 0;
+    }
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute !important;
+    width: 1px;
+    word-wrap: normal !important;
+
+    /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+    &:focus {
+        background-color: darken($light-color, 10%);
+        border-radius: 3px;
+        box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+        clip: auto !important;
+        clip-path: none;
+        color: lighten($dark-color, 10%);
+        display: block;
+        @include font-size(14);
+        font-weight: bold;
+        height: auto;
+        left: 5px;
+        line-height: normal;
+        padding: 15px 23px 14px;
+        text-decoration: none;
+        top: 5px;
+        width: auto;
+        z-index: 100000;
+        /* Above WP toolbar. */
+    }
+}
+
+/* Do not show the outline on the skip link target. */
+#content[tabindex="-1"]:focus {
+    outline: 0;
+}
+
+/*--------------------------------------------------------------
+# Others
+--------------------------------------------------------------*/
+.container {
+    max-width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.overlay,
+.pattern-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+// zigzag line scss statt
+.title-divider {
+    position: relative;
+    margin-bottom: 20px;
+    height: 17px;
+
+    &:before {
+        mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none' overflow='visible' height='100%' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='4' stroke-linecap='square' stroke-miterlimit='10'%3E%3Cpolyline points='0,18 12,6 24,18 '/%3E%3C/svg%3E");
+        -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none' overflow='visible' height='100%' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='4' stroke-linecap='square' stroke-miterlimit='10'%3E%3Cpolyline points='0,18 12,6 24,18 '/%3E%3C/svg%3E");
+        background-repeat: repeat-x;
+        content: "";
+        width: 100px;
+        height: 20px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        -webkit-mask-size: 22px;
+        mask-size: 22px;
+        background-color: $secondary-color;
+        background-size: 22px;
+        -webkit-mask-repeat: repeat-x;
+        mask-repeat: repeat-x;
+    }
+}
+
+// zigzag line center scss start
+.title-divider-center {
+    position: relative;
+    margin-bottom: 20px;
+    height: 17px;
+
+    &:before {
+        mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none' overflow='visible' height='100%' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='4' stroke-linecap='square' stroke-miterlimit='10'%3E%3Cpolyline points='0,18 12,6 24,18 '/%3E%3C/svg%3E");
+        -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none' overflow='visible' height='100%' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='4' stroke-linecap='square' stroke-miterlimit='10'%3E%3Cpolyline points='0,18 12,6 24,18 '/%3E%3C/svg%3E");
+        background-repeat: repeat-x;
+        content: "";
+        width: 100px;
+        height: 20px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        -webkit-mask-size: 22px;
+        mask-size: 22px;
+        background-color: $secondary-color;
+        background-size: 22px;
+        -webkit-mask-repeat: repeat-x;
+        mask-repeat: repeat-x;
+        right: 0;
+        margin-right: auto;
+        margin-left: auto;
+        line-height: 1;
+    }
+}
+
+// end
+// border-curve scss start
+
+.figure-round-border {
+    border-radius: 25px;
+    overflow: hidden;
+
+    img {
+        border-radius: 25px;
+    }
+}
+
+// end
+
+// number countng border scss
+.counter-inner {
+    .counter-item {
+        padding: 25px;
+        text-align: center;
+        border-right: 1px solid #d9d9d9;
+
+        &:last-child {
+            border-right: 0;
+        }
+
+        @include bp(lgx) {
+            border-right: 0;
+
+            &:first-child {
+                border-width: 0 1px 1px 0;
+                border-style: solid;
+                border-color: #d9d9d9;
+            }
+
+            &:last-child {
+                border-width: 1px 0 0 1px;
+                border-style: solid;
+                border-color: #d9d9d9;
+            }
+        }
+
+        @include bp(smx) {
+            border-width: 1px 0 0 0px;
+            border-style: solid;
+            border-color: #d9d9d9;
+
+            &:first-child {
+                border-width: 1px 0 0 0;
+                border-style: solid;
+                border-color: #d9d9d9;
+            }
+
+            &:last-child {
+                border-width: 1px 0 0 0px;
+                border-style: solid;
+                border-color: #d9d9d9;
+            }
+        }
+
+        .counter-no {
+            color: $primary-color;
+            font-size: 52px;
+            font-family: $title-font;
+            font-weight: 900;
+            line-height: 1.2;
+        }
+
+        .Completed {
+            color: $secondary-color;
+
+        }
+    }
+}
+
+// end

@@ -1,0 +1,125 @@
+.home-about-us {
+    padding-top: 110px;
+    position: relative;
+    z-index: 1;
+    .container {
+        position: relative;
+    }
+    @include bp(mdx) {
+        padding-top: 80px;
+    }
+    .pattern-overlay {
+        background-image: url(assets/img/educator-img3.png);
+        background-position: bottom center;
+        background-repeat: no-repeat;
+        background-size: 17% auto;
+        opacity: 0.3;
+    }
+    .about-left-content {
+        margin-right: 35px;
+        @include bp(lgx) {
+            margin-right: 0;
+            margin-bottom: 40px;
+        }
+        .figure-round-border {
+            text-align: center;
+            img {
+                margin-bottom: 35px;
+                border-radius: 25px;
+                width: 100%;
+            }
+        }
+        .skill-container {
+            margin-bottom: 40px;
+            .skill-wrapper {
+                margin-bottom: 30px;
+                .skill-titile {
+                    margin-bottom: 0;
+                    color: $primary-color;
+                }
+                .progress-wrapper {
+                    padding-top: 10px;
+                    .progress-bar-wrap {
+                        background-color: #f8f8f8;
+                    }
+                    .ab-progress-bar {
+                        background-color: $primary-color;
+                    }
+                    .progress-indecator-inner {
+                        .percent {
+                            background-color: transparent;
+                            color: black;
+                            font-family: $title-font;
+                            font-size: 15px;
+                            font-weight: 700;
+                            &:before {
+                                content: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .regarding-us {
+            display: flex;
+            margin-bottom: 25px;
+            @include bp (smx) {
+                display: block;
+            }
+            .left-content {
+                padding-right: 30px;
+            }
+            .right-content {
+                padding-left: 30px;
+            }
+            .qulifaction-content {
+                border-width: 0 0 0 1px;
+                border-style: solid;
+                border-color: rgba(217, 217, 217, 0.47);
+                width: 50%;
+                &:first-child {
+                    border-width: 0;
+                }
+                @include bp (smx) {
+                    width: 100%;
+                    padding: 10px;
+                    border-width: 1px 0 0 0;
+                }
+                .qualification-tag {
+                    display: flex;
+                    align-items: center;
+                    padding-bottom: 5px;
+                    .qualifaction-icon {
+                        margin-right: 15px;
+                        i {
+                            font-size: 35px;
+                            font-weight: 400;
+                            color: $secondary-color;
+                        }
+                    }
+                    .qualifaction-title {
+                        h5 {
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .about-right-content {
+        margin-left: 34px;
+        .about-desc {
+            margin-bottom: 35px;
+        }
+        .figure-round-border {
+            text-align: center;
+            img {
+                width: 100%;
+            }
+        }
+        @include bp(lgx) {
+            margin-left: 0;
+            margin-top: 40px;
+        }
+    }
+}

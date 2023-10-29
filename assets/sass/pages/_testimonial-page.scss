@@ -1,0 +1,16 @@
+.testimonial-section-page {
+    margin-bottom: 110px;
+    background-color: $light-color;
+    .row-space {
+        row-gap: 50px;
+    }
+    .client-content {
+        background-color: $light-color;
+    }
+    @include bp(mdx){
+        margin-bottom: 80px;
+        .row-space {
+            row-gap: 30px;
+        }
+    }
+}

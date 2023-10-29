@@ -1,0 +1,125 @@
+.about-section {
+    margin-bottom: 80px;
+    @include bp(smx){
+        margin-bottom: 0;
+    }
+    .about-describe {
+        color: #111111;
+    }
+    .info-left {
+        padding-right: 18px;
+        @include bp(mdx) {
+            padding: 0;
+        }
+    }
+    .info-right {
+        padding-left: 18px;
+        @include bp(mdx) {
+            padding: 0;
+        }
+    }
+    .counter-inner {
+        margin: 20px auto 40px;
+    }
+    .about-banner {
+        position: relative;
+        .about-image {
+            @include bp(lg) {
+                padding: 0 140px 0 80px;
+            } 
+            @include bp(lgx) {
+                margin-bottom: 30px;;
+            }
+        }
+        .about-left-banner {
+            display: flex;
+            padding: 32px 25px 28px;
+            background-color: $primary-color;
+            border-radius: 25px;
+            color: $light-color;
+            align-items: center;
+            .banner-icon {
+                margin-right: 25px;
+                i {
+                    display: block;
+                    position: relative;
+                    font-size: 40px;
+                    height: 80px;
+                    width: 80px;
+                    line-height: 80px;
+                    border-radius: 100%;
+                    text-align: center;
+                    background-color: $light-color;
+                    color: $secondary-color;
+                }
+            }
+            h3 {
+                margin-bottom: 0;
+                color: #ffffff;
+            }
+            @include bp(lg) {
+                border: 10px solid $light-color;
+                max-width: 418px;
+                position: absolute;
+                left: 0;
+                bottom: 80px;
+                z-index: 1;
+            }
+            @include bp(lgx) {
+                margin-bottom: 30px;
+            }
+            @include bp(xsx) {
+                .banner-icon {
+                    i {
+                        font-size: 28px;
+                        height: 50px;
+                        width: 50px;
+                        line-height: 50px;
+                    }
+                }
+            }
+        }
+        .about-right-banner {
+            text-align: center;
+            padding: 40px;
+            background-color: $light-color;
+            box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.03);
+            border-radius: 25px;
+            h5 {
+                color: $secondary-color;
+                margin-bottom: 30px;
+            }
+            .video-button {
+                margin-bottom: 40px;
+                a {
+                    font-size: 25px;
+                    height: 100px;
+                    width: 100px;
+                    line-height: 100px;
+                    background-color: $secondary-color;
+                    &:before,
+                    &:after {
+                        box-shadow: 0 0 0 0 rgba(242, 64, 128, 0.6);
+                    }
+                }
+            }
+            p {
+                color: #111111;
+            }
+            @include bp(lg) {
+                max-width: 343px;
+                position: absolute;
+                right: 0;
+                bottom: 80px;
+                z-index: 1;
+            }
+        }
+    }
+}
+.about-slider {
+    background-color: white;
+    padding: 80px 0 80px;
+    @include bp(smx) {
+        padding: 40px 0;
+    }
+}

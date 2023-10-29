@@ -1,0 +1,89 @@
+.categories-section {
+    margin-bottom: 110px;
+    position: relative;
+    z-index: 1;
+    @include bp(mdx){
+        margin-bottom: 80px;
+    }
+    .pattern-overlay {
+        background-image: url(assets/img/educator-img5.png);
+        background-size: 11% auto;
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        opacity: 0.5;
+    }
+    .service-wrapper {
+        position: relative;
+        z-index: 1;
+        .pattern-circle {
+            background-image: url(assets/img/educator-img4.png);
+            background-position: center center;
+            background-repeat: no-repeat;
+            opacity: 0.2;
+        }
+        .service-content {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 45px;
+            @include bp(lgx) {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            @include bp(smx) {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+        .course-type {
+            border: 2px dashed #d9d9d9;
+            border-radius: 25px;
+            padding: 40px;
+            text-align: center;
+            .course-icon {
+                margin-bottom: 25px;
+                i {
+                    font-size: 50px;
+                    padding: 45px;
+                    display: inline-block;
+                    border-radius: 100%;
+                    background-color: #f8f8f8;
+                    color: #41246D;
+                }
+            }
+            .course-title {
+                margin-bottom: 10px;
+            }
+            .course-durations {
+                margin-bottom: 0;
+                color: $secondary-color;
+            }
+        }
+    }
+}
+.categories-goal-section {
+    background-color: $light-color;
+}
+.categories-progress-section {
+    background-color: #f8f8f8;
+    padding: 300px 15px 100px 15px;
+    .counter-inner {
+        .counter-item {
+            border-color: rgba(242, 64, 128, 0.2);
+            @include bp(lgx) {
+                border-color: rgba(242, 64, 128, 0.2);
+            }
+            @include bp(smx) {
+                border-color: rgba(242, 64, 128, 0.2);
+            }
+            .counter-no {
+                color: $primary-color;
+                font-size: 60px;
+            }
+            .Completed {
+                color: $secondary-color;
+                font-family: $title-font;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 1.1;
+            }
+        }
+    }
+}

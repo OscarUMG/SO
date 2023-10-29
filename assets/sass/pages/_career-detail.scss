@@ -1,0 +1,165 @@
+.career-detail-section {
+    margin-bottom: 110px;
+    @include bp (mdx) {
+        margin-bottom: 80px;
+    }
+    i {
+        font-style: normal;
+    }
+    .job-description {
+        background-color: $primary-color;
+        border-radius: 30px;
+        overflow: hidden;
+        ul {
+            margin: 0;
+            padding: 0;
+            @include flexbox();
+            @include flex-wrap(wrap);
+            text-align: center;
+            padding: 24px 0;
+        }
+        li {
+            color: #787878;
+            list-style: none;
+            display: inline-block;
+            padding: 0 8px;
+            width: 25%;
+            font-size: 16px;
+            font-weight: 600;
+            border-right: 2px solid rgba($light-color, 0.23);
+            span {
+                margin-bottom: 8px;
+                font-size: 13px;
+                font-weight: 600;
+                font-family: $title-font;
+                line-height: 1.7;
+                color: $light-color;
+            }
+            h5, h4 {
+                margin-bottom: 0;
+                color: $light-color;
+            }
+            &:last-child {
+                border-right: none;
+            }
+        }
+        @include bp(smx) {
+            li {
+                width: 100%;
+                border-right: none;
+                border-bottom: 1px solid rgba($light-color, 0.28);
+                padding: 10px 0;
+                &:last-child {
+                    border-bottom: none;
+                }
+            }
+        }
+    }
+    @include bp(lg) {
+        .career-detail-container {
+            padding-left: 20px;
+        }
+    }
+    .tab-container {
+        .nav-item {
+            a {
+                color: #292929;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 1.2;
+                font-family: $title-font;
+            }
+        }
+        .tab-content {
+            padding: 20px;
+            @include bp (mdx) {
+                border-width: 1px;
+            }
+            @include bp (smx) {
+                padding: 0;
+            }
+            .card-body {
+                padding: 0;
+                @include bp (mdx) {
+                    padding:0 20px;
+                }
+                h5 {
+                    margin-top: 8px;
+                    margin-bottom: 16px;
+                    font-weight: 900;
+                }
+                ul {
+                    li {
+                        color: $text-color;
+                    }
+                }
+            }
+        }
+    }
+    .sidebar {
+        .widget-bg {
+            &:last-child {
+                margin-bottom: 0;
+            }
+            .bg-title {
+                background-color: $secondary-color;
+            }
+            
+            ul {
+                li {
+                    color: $text-color;
+                    i {
+                        font-size: 14px;
+                        color: $secondary-color;
+                    }
+                    .list-txt {
+                        font-size: 15px;
+                        font-weight: 400;
+                        font-family: $primary-font;
+                        color: $text-color;
+                    }
+                }
+            }
+            .accordion-content {
+                .card {
+                    .card-header {
+                        a {
+                            padding: 18px;
+                            font-size: 18px;
+                            font-family: $title-font;
+                            font-weight: 700;
+                            line-height: 1.2;
+                        }
+                    }
+                }
+                .collapse {
+                    .card-body {
+                        color: $text-color;
+                    }
+                }
+            }
+            .widget-icon {
+                background-color: $primary-color;
+                margin-bottom: 25px;
+            }
+            p {
+                a {
+                    color: $secondary-color;
+                }
+            }
+            .or-style {
+                color: $secondary-color;
+                font-family: $title-font;
+                font-size: 18px;
+                font-weight: 700;
+                padding-left: 35px;
+                padding-right: 35px;
+                &:before,
+                &:after {
+                    width: 25px;
+                    background-color: $secondary-color;
+                }
+            }
+        }
+    }
+}

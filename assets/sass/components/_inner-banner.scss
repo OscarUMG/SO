@@ -1,0 +1,82 @@
+.inner-banner-wrap {
+	margin-bottom: 110px;
+	@include bp(mdx) {
+		margin-bottom: 80px;
+	}
+}
+.inner-baner-container {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-align: center;
+	position: relative;
+	padding: 150px 0;
+	&:before {
+		background-image: linear-gradient(180deg, $primary-color 0%, #41246DE0 15%);
+		content: "";
+		display: block;
+		opacity: 1;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		position: absolute;
+	}
+	.inner-banner-content {
+		position: relative;
+		color: $light-color;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+	.inner-title {
+		color: $light-color;
+		line-height: 1.1;
+		margin-bottom: 0;
+	}
+	.breadcrumb {
+		background-color: transparent;
+		@include justify-content(center);
+		margin: 0;
+		padding: 0;
+		li {
+			color: $light-color;
+			@include font-size(14);
+			&:before {
+				color: inherit;
+			}
+			a {
+				color: $light-color;
+				&:hover {
+					color: $hover-color;
+				}
+			}
+			&.active {
+				color: darken($light-color, 30%);
+			}
+		}
+	}
+	.breadcrumb-content {
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 20px;
+	}
+	@include bp(smx) {
+		padding: 80px 0;
+		.inner-title {
+			@include font-size(30);
+		}
+		.inner-banner-content {
+			p {
+				@include font-size(15);
+			}
+		}
+	}
+}
+.policy-page-section {
+	padding-bottom: 100px;
+}

@@ -1,0 +1,164 @@
+.home-fact-section {
+    margin-bottom: 130px;
+    background-image: url(assets/img/educator-img12.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    z-index: 1;
+    padding: 30px 0;
+    @include bp(xlx) {
+        padding: 0;
+    }
+    @include bp(mdx) {
+        margin-bottom: 80px;
+    }
+    @include bp(lgx) {
+        padding: 50px 0;
+    }
+    .overlay {
+        background-color: $primary-color;
+        opacity: 0.94;
+        z-index: -1;
+    }
+    .fact-section-head {
+        padding-right: 40px;
+        @include bp(lgx) {
+            padding-right: 0;
+        }
+        .fact-section-title {
+            color: $light-color;
+        }
+        .fact-section-info {
+            color: #d9d9d9;
+        }
+        .fact-list {
+            margin-bottom: 35px;
+            ul {
+                margin: 0;
+                padding: 0;
+                li {
+                    list-style: none;
+                    color: $light-color;
+                    margin-bottom: 12px;
+                    display: flex;
+                    font-weight: 700;
+                    font-family: $title-font;
+                    line-height: 1.2;
+                    &:before {
+                        color: $secondary-color;
+                        content: "\eab0";
+                        font-family: "elementskit";
+                        font-weight: 400;
+                        font-size: 14px;
+                        margin-right: 5px;
+                    }
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+    .fact-right-inner-wrap {
+        margin: -50px -30px -50px -30px;
+        background-color: transparent;
+        position: relative;
+        @include bp(xlx) {
+            margin: -20px 0 -20px 0;
+        }
+        @include bp(lgx) {
+            margin-top: 20px;
+        }
+        .fact-inner-box {
+            width: 100%;
+            border-radius: 100%;
+            overflow: hidden;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 10px;
+            box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
+            align-items: center;
+            align-content: center;
+            aspect-ratio: 1/1;
+            @include bp(lgx) {
+                max-width: 600px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            @include bp(smx) {
+                aspect-ratio: auto;
+                grid-template-columns: repeat(1, 1fr);
+                border-radius: 0;
+                grid-gap: 5px;
+                margin-top: 40px;
+            }
+            .fact-content {
+                position: relative;
+                z-index: 1;
+                background-color: $light-color;
+                display: flex;
+                min-height: 300px;
+                max-width: 100%;
+                @include bp(smx) {
+                    min-height: auto;
+                }
+                .circle-patten {
+                    background-image: url(assets/img/educator-img4.png);
+                    background-position: top center;
+                    background-repeat: no-repeat;
+                    opacity: 0.3;
+                }
+                .circle-c-patten {
+                    background-image: url(assets/img/educator-img3.png);
+                    background-position: top right;
+                    background-repeat: no-repeat;
+                    opacity: 0.3;
+                }
+                h4 {
+                    margin-bottom: 0;
+                    text-align: center;
+                    vertical-align: middle;
+                }
+            }
+            .fact-image {
+                background-repeat: no-repeat;
+                background-size: cover;
+                min-height: 300px;
+                max-width: 100%;
+            }
+            .top-left-content {
+                padding: 30px 40px 0px 75px;
+                align-items: center;
+                @include bp(xlx) {
+                    padding: 90px 15px 0px 60px;
+                }
+                @include bp(smx) {
+                    padding: 15px 10px;
+                    border-radius: 100% 100% 0% 0%;
+                    justify-content: center;
+                }
+            }
+            .top-right-image {
+                background-image: url(assets/img/educator-img27.jpg);
+                background-position: center right;
+            }
+            .bottom-left-image {
+                background-image: url(assets/img/educator-img28.jpg);
+                background-position: center left;
+            }
+            .bottom-right-content {
+                align-items: center;
+                padding: 0px 70px 50px 20px;
+                @include bp(xlx) {
+                     padding: 0px 65px 85px 20px;
+                }
+                @include bp(smx) {
+                    padding: 15px 10px;
+                    border-radius: 0% 0% 100% 100%;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+}

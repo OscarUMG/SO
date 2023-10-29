@@ -1,0 +1,93 @@
+.feature-page-section {
+    padding: 110px 0;
+    @include bp(mdx){
+        padding: 80px 0;
+    }
+    .inner-course-wrap {
+        .row {
+            row-gap: 50px;
+        }
+    }
+}
+.course-result-section {
+    padding-top: 110px;
+    background-color: $light-color;
+    @include bp(mdx){
+        padding-top: 80px;
+    }
+    .left-content {
+        position: relative;
+        z-index: 1;
+        .zigzag-patten {
+            background-image: url(assets/img/educator-img5.png);
+            background-position: calc(100% - 50px) 100%;
+            background-repeat: no-repeat;
+            background-size: 22% auto;
+            opacity: 0.3;
+            @include bp(lgx) {
+                background-position: calc(100% - 50px) 100%;
+            }
+        }
+    }
+    .feature-left-content {
+        margin-right: 50px;
+        @include bp(lgx) {
+            margin-right: 0;
+            margin-bottom: 40px;
+        }
+        .feature-course-desc {
+            margin-bottom: 20px;
+        }
+        .skill-container {
+            margin-bottom: 40px;
+            .skill-wrapper {
+                margin-bottom: 20px;
+                .skill-titile {
+                    margin-bottom: 0;
+                    color: $primary-color;
+                    line-height: 1;
+                }
+                .progress-wrapper {
+                    padding-top: 15px;
+                    .ab-progress-bar {
+                        background-color: $primary-color;
+                    }
+                    .progress-indecator-inner {
+                        .percent {
+                            background-color: transparent;
+                            color: black;
+                            font-family: $title-font;
+                            font-size: 15px;
+                            font-weight: 700;
+                            &:before {
+                                content: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .feature-right-content {
+        position: relative;
+        z-index: 1;
+        .c-patten {
+            background-image: url(assets/img/educator-img3.png);
+            background-position: top left;
+            background-repeat: no-repeat;
+            opacity: 0.5;
+        }
+        .circle-patten {
+            background-image: url(assets/img/educator-img4.png);
+            background-position: 100% 98%;
+            background-repeat: no-repeat;
+            background-size: auto;
+            opacity: 1;
+        }
+        .feature-image {
+        	margin-right: auto;
+        	margin-left: auto;
+        	text-align: center;
+        }
+    }
+}

@@ -1,0 +1,86 @@
+.home-team-section {
+    padding: 110px 0;
+    background-color: #f8f8f8;
+    @include bp(mdx) {
+        padding: 80px 0;
+    }
+    .container {
+        position: relative;
+        z-index: 1;
+        .overlay {
+            background-image: url(assets/img/educator-img4.png);
+            background-position: top center;
+            background-repeat: no-repeat;
+            background-size: 15% auto;
+            opacity: 0.3;
+        }
+    }
+    .title-divider {
+        @include bp(mdx) {
+            &:before {
+                right: 0;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+    }
+    .team-section-title {
+        margin-bottom: 0;
+        @include bp(mdx) {
+            margin-bottom: 15px;
+        }
+    }
+    .group-member {
+        margin-top: 29px;
+        .team-img {
+            border: 10px solid #fff;
+            border-radius: 100%;
+            box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15) inset, 0px 0px 1px 1px rgba(0, 0, 0, 0.10);
+            width: 100%;
+            height: auto;
+            overflow: hidden;
+            text-align: center;
+        }
+        .team-content {
+            margin-top: 20px;
+            h4 {
+                margin-bottom: 5px;
+            }
+            p {
+                color: $secondary-color;
+            }
+        }
+        .team-social-link {
+            ul {
+                li {
+                    margin-left: 6px;
+                    margin-right: 0;
+                    &:first-child {
+                        margin-left: 0;
+                    }
+                    a {
+                        @include transition(all 0.3s);
+                        font-size: 13px;
+                        i {
+                            color: #fff;
+                            display: block;
+                            width: 34px;
+                            height: 34px;
+                            line-height: 34px;
+                            position: relative;
+                            background-color: $primary-color;
+                            border-radius: 100%;
+                            text-align: center;
+                            vertical-align: middle;
+                        }
+                        &:hover {
+                            i {
+                                background-color: $hover-color;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

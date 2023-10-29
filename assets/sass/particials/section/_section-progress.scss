@@ -1,0 +1,67 @@
+.home-progress-section {
+    background-image: url(assets/img/educator-img12.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 300px 15px 100px 15px;
+    position: relative;
+    z-index: 1;
+    .overlay {
+        background-color: $primary-color;
+        opacity: 0.92;
+    }
+    .counter-inner {
+        .counter-item-wrap {
+            .counter-item {
+                padding: 30px 18px;
+                text-align: center;
+                border-right: 1px solid rgba(255, 255, 255, 0.14);
+                &:last-child {
+                    border-right: 0;
+                }
+                @include bp(lgx) {
+                    border-right: 0;
+                    &:first-child {
+                        border-width: 0 1px 1px 0;
+                        border-style: solid;
+                        border-color: rgba(255, 255, 255, 0.14);
+                    }
+                    &:last-child {
+                        border-width: 1px 0 0 1px;
+                        border-style: solid;
+                        border-color: rgba(255, 255, 255, 0.14);
+                    }
+                }
+                @include bp(smx) {
+                    border-width: 1px 0 0 0px;
+                    border-style: solid;
+                    border-color: rgba(255, 255, 255, 0.14);
+                    &:first-child {
+                        border-width: 1px 0 0 0;
+                        border-style: solid;
+                        border-color: rgba(255, 255, 255, 0.14);
+                    }
+                    &:last-child {
+                        border-width: 1px 0 0 0px;
+                        border-style: solid;
+                        border-color: rgba(255, 255, 255, 0.14);
+                    }
+                }
+                .counter-no {
+                    color: $light-color;
+                    font-size: 60px;
+                    font-weight: 900;
+                    font-family: $title-font;
+                    line-height: 1.1;
+                }
+                .Completed {
+                    font-family: $title-font;
+                    font-size: 18px;
+                    font-weight: 700;
+                    color: $secondary-color;
+                    line-height: 1.1;
+                }
+            }
+        }
+    }
+}

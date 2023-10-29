@@ -1,0 +1,248 @@
+.site-footer {
+    background-image: url(assets/img/educator-img12.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    z-index: 1;
+    padding-top: 100px;
+    background-size: cover;
+    .footer-overlay {
+        background-color: $primary-color;
+        opacity: 0.98;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: -1;
+    }
+    .subscribe-section {
+        .subscribe-content {
+            position: relative;
+            z-index: 1;
+            border-radius: 25px;
+            padding: 40px;
+            overflow: hidden;
+            @include bp(smx) {
+                padding: 40px 20px;
+            }
+            .overlay {
+                background-color: $secondary-color;
+                opacity: 0.3;
+            }
+            .subscribe-title {
+                color: $light-color;
+                line-height: 1;
+                margin-bottom: 12px;
+            }
+            .subscribe-info {
+                margin-bottom: 0;
+                color: #d9d9d9;
+            }
+            .form-content {
+                margin-left: 100px;
+                text-align: right;
+                @include bp(lgx) {
+                    text-align: center;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-top: 20px;
+                    input {
+                        margin-bottom: 10px;
+                    }
+                }
+                input {
+                    padding: 12px 20px;
+                    max-width: 350px;
+                    height: 50px;
+                    margin-right: 12px;
+                    width: 100%;
+                    @include bp(mdx) {
+                        min-width: 300px;
+                    }
+                    @include bp(xsx) {
+                        min-width: 200px;
+                    }
+                }
+                button {
+                    padding: 16px 28px;
+                    background-color: $primary-color;
+                    color: white;
+                    font-size: 15px;
+                    font-family: $title-font;
+                    font-weight: 700;
+                    line-height: 1.2;
+                    border-radius: 25px;
+                    border: none;
+                }
+            }
+        }
+    }
+    .top-footer {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        .textwidget {
+            font-size: 15px;
+            color: #d9d9d9;
+        }
+        .img-textwidget {
+            margin-bottom: 10px;
+        }
+    }
+    .footer-logo {
+        margin-bottom: 20px;
+    }
+    .footer-social-links {
+        margin-top: 25px;
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            li {
+                margin: 0 3px;
+                display: inline-block;
+                &:first-child {
+                    margin-left: 0;
+                }
+                &:last-child {
+                    margin-right: 0;
+                }
+                a {
+                    background-color: transparent;
+                    color: #d9d9d9;
+                    border-radius: 100%;
+                    border: 1px solid #a7a7a7;
+                    width: 30px;
+                    height: 30px;
+                    line-height: 30px;
+                    text-align: center;
+                    display: block;
+                    font-size: 15px;
+                    @include transition(all 0.3s);
+                    font-size: 13px;
+                    &:hover {
+                        background-color: $hover-color;
+                        color: $light-color;
+                        border-color: $hover-color;
+                    }
+                }
+            }
+        }
+        @include bp(mdx) {
+            margin-bottom: 30px;
+        }
+    }
+    @include bp(smx) {
+        padding-top: 50px;
+        .top-footer {
+            padding-top: 25px;
+            padding-bottom: 25px;
+        }
+        .bottom-footer {
+            margin-top: 0;
+        }
+    }
+    .bottom-footer {
+        padding: 20px 0;
+        border-top: 1px solid rgba(167, 167, 167, 0.23);
+        .copy-right {
+            color: #d9d9d9;
+            font-size: 13px;
+            font-weight: 1.2;
+            font-weight: 400;
+        }
+        .legal-list {
+            text-align: right;
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                li {
+                    padding: 0 12px;
+                    display: inline-block;
+                    border-right: 1px solid rgba(167, 167, 167, 0.23);
+                    &:last-child {
+                        border-right: none;
+                        padding-right: 0;
+                    }
+                    &:first-child {
+                        padding-left: 0;
+                    }
+                    a {
+                        color: #d9d9d9;
+                        font-size: 13px;
+                        font-weight: 1.2;
+                        font-weight: 400;
+                        &:hover {
+                            color: $secondary-color;
+                        }
+                    }
+                }
+            }
+        }
+        @include bp (mdx) {
+            .copy-right  {
+                margin-bottom: 20px;
+                text-align: center;
+            }
+            .legal-lsit {
+                text-align: center;
+            }
+        }
+    }
+}
+.top-footer {
+    .widget {
+        margin-bottom: 0;
+        color: #D9D9D9;
+        .widget-title {
+            color: $light-color;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 1.2;
+            margin-bottom: 30px;
+        }
+        p {
+            font-size: 15px;
+        }
+        ul {
+            li {
+                margin-bottom: 20px;
+                a {
+                    color: #D9D9D9;
+                    font-size: 15px;
+                    &:hover,
+                    &:focus,
+                    &:active {
+                        color: $secondary-color;
+                    }
+                }
+            }
+        }
+    }
+    @include bp(lgx) {
+        .widget {
+            margin-bottom: 30px;
+        }
+    }
+    .school-time {
+        span {
+            display: inline-block;
+            margin-bottom: 10px;
+            font-size: 14px;
+            i {
+                font-size: 15px;
+                color: $secondary-color;
+                padding-right: 5px;
+            }
+        }
+        a {
+            padding: 14px 22px;
+            display: inline-block;
+            font-family: $primary-font;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 1;
+        }
+    }
+}

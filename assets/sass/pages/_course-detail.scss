@@ -1,0 +1,222 @@
+.course-detail-section {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 110px;
+    @include bp (mdx) {
+        margin-bottom: 80px;
+    }
+    .circle-patten{
+        background-image: url(assets/img/educator-img4.png);
+        background-position: bottom right;
+        background-repeat: no-repeat;
+        opacity: 0.7;
+    }
+    i {
+        font-style: normal;
+    }
+    .course-detail-inner {
+
+        @include bp(mdx){
+            padding-bottom: 0;
+        }
+    }
+    .course-description {
+        background-color: $light-color;
+        border-radius: 30px;
+        overflow: hidden;
+        .course-tag {
+            padding: 20px 0;
+        }
+        .pink-border {
+            border-right: 2px solid rgba(242, 64, 128, 0.17);
+            &:last-child {
+                border-right: none;
+            }
+            @include bp(mdx){
+                padding: 10px 0;
+                border-right: 0;
+                border-bottom: 1px solid rgba(242, 64, 128, 0.17);
+                 &:last-child {
+                    border-bottom: none;
+                }
+                .rating-start-wrap {
+                    margin-right: auto;
+                    margin-left: auto;
+                }
+            }
+        }
+        span {
+            margin-bottom: 8px;
+            font-size: 13px;
+            font-weight: 700;
+            line-height: 1.2;
+            color: #111111;
+        }
+        h5 {
+            letter-spacing: -0.4px;
+            font-weight: 700;
+            margin-bottom: 0;
+        }
+        h3 {
+            margin-bottom: 0;
+            color: $secondary-color;
+        }
+        .course-teach-tag {
+            .author-img {
+                border-radius: 50%;
+                overflow: hidden;
+                text-align: center;
+                width: 47px;
+                margin-right: 15px;
+                img {
+                    width: 100%;
+                }
+            }
+            .author-name {
+                margin-bottom: 2px;
+            }
+            .tag-discription {
+                margin-bottom: 0;
+                font-weight: 400;
+                line-height: 1;
+            }
+        }
+        .rating-start-wrap {
+            margin-top: 5px;
+            .rating-start {
+                font-size: 14px;
+                line-height: 1;
+                span {
+                    font-size: 14px;
+                    line-height: 1;
+                    margin-bottom: 0;
+                    &:before {
+                        color: $primary-color;
+                    }
+                }
+            }
+        }
+    }
+    @include bp(lg) {
+        .course-detail-container {
+            padding-left: 20px;
+        }
+    }
+    .tab-container {
+        .nav-item {
+            a {
+                color: #292929;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 1.7;
+                font-family: $title-font;
+            }
+        }
+        .tab-content {
+            padding: 20px;
+            background-color: $light-color;
+            @include bp (mdx) {
+                border-width: 1px;
+            }
+            @include bp (smx) {
+                padding: 0;
+            }
+            .card-body {
+                padding: 0;
+                @include bp (smx) {
+                    padding: 0 12px;
+                }
+                h5 {
+                    color: $title-color;
+                    margin-bottom: 16px;
+                    margin-top: 8px;
+                    font-weight: 700;
+                    font-family: $title-font;
+                }
+                .instructor-detail {
+                    strong,
+                    em,
+                    figure {
+                        margin-bottom: 20px;
+                        display: block;
+                    }
+                }
+                ul {
+                    li {
+                        color: $text-color;
+                    }
+                }
+            }
+        }
+    }
+    .sidebar {
+        .video-widget {
+            border-radius: 25px;
+            overflow: hidden;
+            iframe {
+                width: 80%;
+                height: 150px;
+                display: block;
+                margin-right: auto;
+                margin-left: auto;
+                border-radius: 25px;
+            }
+        }
+        .brochure {
+            margin-top: -70px;
+            padding: 100px 30px 26px 30px;
+            .enroll-coures-btn {
+                margin-top: 30px;
+                a {
+                    text-transform: none;
+                }
+            }
+        }
+        .widget-bg {
+            background-color: $light-color;
+            box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.05);
+            border-radius: 25px;
+            ul {
+                li {
+                    color: $text-color;
+                    i {
+                        font-size: 14px;
+                        color: $secondary-color;
+                    }
+                    span {
+                        font-size: 15px;
+                        font-weight: 400;
+                        line-height: 1.7;
+                        font-family: $primary-font;
+                        color: $text-color;
+                    }
+                }
+            }
+        }
+        .widget-post-thumb {
+            background-color: $secondary-color;
+            padding: 40px 30px 26px 30px;
+            .bg-title {
+                font-weight: 700;
+            }
+            ul {
+                li {
+                    display: flex;
+                    align-items: center;
+                    border-color: rgba(255, 255, 255, 0.23);
+                    figure {
+                        width: 90px;
+                        border-radius: 10px;
+                        overflow: hidden;
+                        margin-right: 20px;
+                    }
+                    .post-content {
+                        h5 {
+                            color: $light-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

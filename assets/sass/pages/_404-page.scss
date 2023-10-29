@@ -1,0 +1,96 @@
+.no-content-section {
+    padding-top: 110px;
+    padding-bottom: 180px;
+    position: relative;
+    z-index: 1;
+    @include bp(smx) {
+        padding-bottom: 70px;
+    }
+}
+.circle-patten {
+        background-image: url(assets/img/educator-img4.png);
+        background-position: 20% 110px;
+        background-repeat: no-repeat;
+        opacity: 0.2;
+    }
+.no-content-wrap {
+    position: relative;
+    text-align: center;
+    z-index: 2;
+    
+    .zigzag-patten {
+        background-image: url(assets/img/educator-img5.png);
+        background-position: bottom right;
+        background-repeat: no-repeat;
+        background-size: 15% auto;
+        opacity: 0.4;
+    }
+    .title-wrap {
+    	position: relative;
+    }
+    span {
+        color: #D9D9D9;
+        @include font-size(300);
+        font-family: $title-font;
+        font-weight: 900;
+        line-height: 1.2;
+    }
+    h1 {
+        font-size: 60px;
+        margin-bottom: 0;
+        position: absolute;
+        @include translate(0, -50%);
+        top: 50%;
+        left: 0;
+        right: 0;
+        color: $title-color;
+    }
+    p {
+        @include font-size(18);
+        font-weight: 700;
+        margin-top: 35px;
+        margin-bottom: 35px;
+        line-height: 1.1;
+        font-family: $title-font;
+        color: $title-color;
+    }
+    .search-form-wrap {
+        max-width: 830px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 46px;
+        .search-form {
+            max-width: 650px;
+            margin-left: auto;
+            margin-right: auto;
+            input {
+                padding: 0 55px 0 20px;
+                border-color: $secondary-color;
+            }
+            button {
+                padding: 10px 20px;
+                top: 0;
+                right: 0;
+                height: 100%;
+                background-color: $secondary-color;
+            }
+        }
+    }
+    @include bp(mdx) {
+        span {
+            @include font-size(224);
+        }
+    }
+    @include bp(smx) {
+        span {
+            @include font-size(124);
+        }
+        h1 {
+            @include font-size(22);
+        }
+        p {
+            @include font-size(14);
+            margin-top: 40px;
+        }
+    }
+}

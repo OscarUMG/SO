@@ -1,0 +1,142 @@
+.faq-page-container {
+    padding-bottom: 110px;
+    @include bp(mdx) {
+        padding-bottom: 80px;
+    }
+    .faq-content-wrap {
+        @include bp(lg) {
+            padding-left: 20px;
+        }
+    }
+    .section-head {
+        p {
+            margin-bottom: 30px;
+            color: $text-color;
+        }
+    }
+}
+.qsn-form-container {
+    box-shadow: 0px 0px 30px 0px rgba($dark-color, 0.15);
+    padding: 30px;
+    text-align: center;
+    border-radius: 30px;
+    position: relative;
+    z-index: 1;
+    .zigzag-patten {
+        background-image: url(assets/img/educator-img5.png);
+        background-position: bottom right;
+        background-repeat: no-repeat;
+        opacity: 0.3;
+    }
+    h4 {
+        background-color: $primary-color;
+        color: $light-color;
+        padding: 14px;
+        border-radius: 30px;
+    }
+    p {
+        margin-bottom: 20px;
+    }
+    form {
+        padding-top: 10px;
+        text-align: left;
+    }
+    input {
+        padding: 15px;
+        border: none;
+        color: $text-color;
+        &:not([type="submit"]) {
+            min-height: 59px;
+            width: 100%;
+        }
+        &:not([type="submit"]) {
+            height: 59px;
+        }
+    }
+    textarea {
+        padding: 15px;
+        border: none;
+        color: $text-color;
+    }
+    input[type="submit"] {
+        color: $light-color;
+        background-color: $secondary-color;
+        font-weight: 700;
+        font-family: $title-font;
+    }
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+    /* Firefox */
+    input[type=number] {
+        -moz-appearance: textfield;
+        appearance: textfield;
+    }
+    @include bp(lg) {
+        margin-left: 40px;
+    }
+    @include bp(lgx) {
+        margin-top: 40px;
+    }
+    @include bp(xsx) {
+        padding: 30px 20px;
+    }
+}
+.faq-testimonial {
+    .faq-image {
+        border-radius: 30px;
+        position: relative;
+        z-index: 1;
+        .c-patten {
+            background-image: url(assets/img/educator-img3.png);
+            background-position: top left;
+            background-repeat: no-repeat;
+            opacity: 0.3;
+        }
+        .circle-patten {
+            background-image: url(assets/img/educator-img4.png);
+            background-position: center right;
+            background-repeat: no-repeat;
+            opacity: 0.8;
+        }
+        img {
+            width: 100%;
+        }
+    }
+    .testimonial-content {
+        background-color: $secondary-color;
+        color: $light-color;
+        margin-right: 25px;
+        margin-top: -50px;
+        padding: 30px;
+        position: relative;
+        border-radius: 30px;
+        width: 90%;
+        z-index: 2;
+        @include bp(lgx) { 
+            margin-left: auto;
+            margin-right: auto;
+        }
+        i {
+            font-size: 40px;
+            margin-bottom: 12px;
+            line-height: 1;
+            color: #FFFFFFA3;
+        }
+        .quot-title {
+            color: $light-color;
+            margin-bottom: 6px;
+        }
+        p {
+            color: #f8f8f8;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+    @include bp(lgx) {
+        margin-bottom: 40px;
+    }
+}

@@ -1,0 +1,203 @@
+.home-course-section {
+    padding: 110px 0 130px;
+    background-color: #f8f8f8;
+    
+    @include bp(mdx) {
+        padding: 80px 0;
+    }
+    .overlay-wrapper {  
+        position: relative;
+        z-index: 1;  
+        .pattern-overlay {
+            background-image: url(assets/img/educator-img6.png);
+            background-position: bottom left;
+            background-repeat: no-repeat;
+            background-size: 12% auto;
+        }
+        .overlay-circle {
+            background-image: url(assets/img/educator-img3.png);
+            background-repeat: no-repeat;
+            background-position: 100% 10%;
+            opacity: 0.4;
+        }
+    }
+    .title-divider {
+        &:before {
+            margin-left: auto;
+            margin-right: auto;
+            right: 0;
+        }
+    }
+    .course-section-info,
+    .section-title {
+        text-align: center;
+    }
+    .course-section-info {
+        margin-bottom: 55px;
+    }
+    .inner-course-wrap {
+        .row {
+            row-gap:20px;
+        }
+        .post {
+            border-radius: 25px;
+            overflow: hidden;
+            .feature-image {
+                position: relative;
+                z-index: 1;
+                img {
+                    width: 100%;
+                }
+                .bookmark-icon {
+                    position: absolute;
+                    top: 20px;
+                    right: 17px;
+                    text-align: center;
+                    padding: 10px;
+                    background-color: rgba(17, 17, 17, 0.47);
+                    border-radius: 100%;
+                    &:hover {
+                        background-color: $hover-color;
+                    }
+                    i {
+                        font-size: 16px;
+                        color: $light-color;
+                        width: 1em;
+                        display: block;
+                    }
+                }
+                .cat-meta {
+                    position: absolute;
+                    bottom: -15px;
+                    left: 30px;
+                    padding: 3px 15px;
+                    border-radius: 25px;
+                    background-color: $secondary-color;
+                    a {
+                        color: #ffffff;
+                        line-height: 1.7;
+                    }
+                }
+            }
+            .entry-content {
+                background-color: #fff;
+                padding: 40px 30px 15px;
+                h4 {
+                    margin-bottom: 20px;
+                }
+                .rating-content {
+                    display: flex;
+                    align-items: center;
+                    .rating-info {
+                        margin-right: 10px;
+                        color: #787878;
+                        font-size: 13px;
+                        line-height: 1.2;
+                        display: inline-block;
+                    }
+                    .rating-start-wrap {
+                        display: table;
+                        text-align: right;
+                        .rating-start {
+                            display: table;
+                            position: relative;
+                            font-size: 14px;
+                            letter-spacing: 2px;
+                            line-height: 1;
+                            &:before {
+                                color: #ccd6df;
+                                content: "\f005\f005\f005\f005\f005";
+                                display: block;
+                                font-family: "Font Awesome 5 free";
+                                font-weight: 600;
+                            }
+                            span {
+                                display: block;
+                                left: 0;
+                                overflow: hidden;
+                                position: absolute;
+                                top: 0;
+                                &:before {
+                                    color: $secondary-color;
+                                    content: "\f005\f005\f005\f005\f005";
+                                    display: inline-block;
+                                    font-family: "Font Awesome 5 free";
+                                    font-weight: 600;
+                                }
+                            }
+                        }
+                    }
+                }
+                .author-content {
+                    margin: 20px 0 15px;
+                    padding-bottom: 30px;
+                    border-bottom: 1px solid rgba(217 217 217 / 0.47);
+                    display: flex;
+                    align-items: center;
+                    .author-img {
+                        width: 41px;
+                        height: 41px;
+                        margin-right: 15px;
+                        img {
+                            border-radius: 100%;
+                        }
+                    }
+                    .author-name {
+                        margin-bottom: 0;
+                    }
+                }
+                .entry-meta {
+                    display: flex;
+                    justify-content: space-between;
+                    .student-number {
+                        font-size: 13px;
+                        line-height: 1;
+                        i {
+                            margin-right: 11px;
+                            color: $secondary-color;
+                        }
+                    }
+                    a {
+                        color: $title-color;
+                        line-height: 1;
+                        &:hover {
+                            color: $hover-color;
+                        }
+                        i {
+                            margin-left: 10px;
+                        }
+                    }
+                }
+            }
+        }
+        .inner-course {
+            &:nth-child(even) {
+                .cat-meta {
+                    background-color: $primary-color;
+                }
+                .entry-content {
+                    .rating-content {
+                        .rating-start-wrap {
+                            .rating-start {
+                                span {
+                                    &:before {
+                                        color: $primary-color;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .student-number {
+                        i {
+                            color: $primary-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .course-bhn {
+        margin-top: 70px;
+        text-align: center;
+    }
+}
