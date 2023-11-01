@@ -1,3 +1,7 @@
+<?php
+    //
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -273,20 +277,24 @@
                             <div class="col-lg-6">
                                 <div class="contact-from-wrap">
                                     <div class="pattern-overlay circle-patten"></div>
-                                    <form class="contact-from">
+                                    
+                                    <form action="vendor/enviar_correo.php" method="post" class="contact-from">
+
+                                        <p class="width-full">
+                                            <input type="text" name="remitente" id="remitente" placeholder="Nombre Completo*" required>
+                                        </p>                                
                                         
                                         <p class="width-full">
-                                            <input type="email" name="email" placeholder="Correo electrónico*">
-                                            <!-- Correo -->
+                                            <input type="email" name="remitenteCorreo" id="remitenteCorreo" placeholder="Correo electrónico*" required>
                                         </p>
                                         
                                         <p class="width-full">
-                                             <input type="text" name="subject" placeholder="Asunto del correo*">
+                                             <input type="text" name="asunto" id="asunto" placeholder="Asunto del correo*" required>
                                             <!-- Asunto -->
                                         </p> 
                                         
                                         <p class="width-full">
-                                            <textarea rows="8" placeholder="Detalle..."></textarea>
+                                            <textarea rows="8" name="cuerpo" id="cuerpo" placeholder="Detalle..."></textarea required>
                                             <!-- Body -->
                                         </p>
                                         <p class="width-full">
@@ -472,3 +480,7 @@
 </body>
 
 </html>
+
+<?php
+    //
+?>
