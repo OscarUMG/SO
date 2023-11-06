@@ -2506,13 +2506,13 @@ input[type=submit]:focus {
 .fixed-header .search-icon i:hover {
   color: #961040;
 }
-.fixed-header .site-title img {
+/* .fixed-header .site-title img {
   filter: invert(100%) saturate(100%) hue-rotate(154deg) sepia(19%) contrast(200%);
 }
 .fixed-header .site-title img:hover {
   opacity: 1;
   filter: invert(100%) saturate(100%) hue-rotate(277deg) sepia(19%) contrast(500%);
-}
+} */
 @media screen and (max-width: 991px) {
   .fixed-header .mobile-menu-container {
     background-color: #ffffff;

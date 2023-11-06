@@ -31,7 +31,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <!-- css -->
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Contact – Educator - University & School Education HTML5 Template</title>
+    <title>UMG - Contacto</title>
 </head>
 
 <body class="home">
@@ -50,13 +50,13 @@
                             <div class="header-contact-info">
                                 <ul>
                                     <li>
-                                        <a href="tel:+01-977-2599-12"><i class="fas fa-phone-alt"></i> +01 (977) 2599 12</a>
+                                        <a href="tel:+502 7925-2426"><i class="fas fa-phone-alt"></i> +502 7925-2426</a>
                                     </li>
                                     <li>
-                                        <a href="mailto:company@domain.com"><i class="fas fa-envelope"></i> company@domain.com</a>
+                                        <a href="mailto:info@soumgsanarate.com"><i class="fas fa-envelope"></i> info@soumgsanarate.com</a>
                                     </li>
                                     <li>
-                                        <i class="fas fa-map-marker-alt"></i> 3146 Koontz Lane, California
+                                        <i class="fas fa-map-marker-alt"></i> 7a. Calle, 3-29 Zona 4, Sanarate, El Progreso
                                     </li>
                                 </ul>
                             </div>
@@ -65,36 +65,11 @@
                             <div class="header-social social-links">
                                 <ul>
                                     <li>
-                                        <a href="https://www.facebook.com" target="_blank">
+                                        <a href="https://www.facebook.com/people/UMG-Sanarate/100063982872567/?mibextid=ZbWKwL" target="_blank">
                                             <i class="fab fa-facebook" aria-hidden="true"></i>
                                         </a>
                                     </li>
-                                    <li>
-                                        <a href="https://www.twitter.com" target="_blank">
-                                            <i class="fab fa-twitter" aria-hidden="true"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.youtube.com" target="_blank">
-                                            <i class="fab fa-youtube" aria-hidden="true"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.instagram.com" target="_blank">
-                                            <i class="fab fa-instagram" aria-hidden="true"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.linkedin.com" target="_blank">
-                                            <i class="fab fa-linkedin" aria-hidden="true"></i>
-                                        </a>
-                                    </li>
                                 </ul>
-                            </div>
-                            <div class="header-search-icon">
-                                <button class="search-icon">
-                                    <i class="fas fa-search"></i>
-                                </button>
                             </div>
                         </div>
                     </div>
@@ -106,18 +81,23 @@
                         <div class="site-identity col-lg-3">
                             <p class="site-title">
                                 <a href="index.html">
-                                    <img src="assets/img/educator-logo1.png" alt="logo">
+                                    <img 
+                                        src="assets/img/educator-logo1.png" 
+                                        alt="logo"
+                                        width="100"
+                                        height="100"
+                                    >
                                 </a>
                             </p>
                         </div>
                         <div class="main-navigation col-lg-9 justify-content-between d-flex align-items-center">
                             <nav id="navigation" class="navigation d-none d-lg-inline-block">
                                 <ul>
-                                    <li class="current-menu-item">
-                                        <a href="index.html">Home</a>
+                                    <li>
+                                        <a href="index.html">Inicio</a>
                                     </li>
                                     <li>
-                                        <a href="about.html">About Us</a>
+                                        <a href="about.html">Sobre nosotros</a>
                                     </li>
                                     <li class="menu-item-has-children">
                                         <a href="#">pages</a>
@@ -175,30 +155,13 @@
                                     <li>
                                         <a href="blog-archive.html">Blog</a>
                                     </li>
-                                    <li class="menu-item-has-children">
-                                        <a href="#">Shop</a>
-                                        <ul>
-                                            <li>
-                                                <a href="product-archive.html">Product list</a>
-                                            </li>
-                                            <li>
-                                                <a href="product-detail.html">Single Product</a>
-                                            </li>
-                                            <li>
-                                                <a href="product-cart.html">Shop Cart</a>
-                                            </li>
-                                            <li>
-                                                <a href="product-checkout.html">Shop Checkout</a>
-                                            </li>
-                                        </ul>
-                                    </li>
                                     <li>
-                                        <a href="contact.html">Contact</a>
+                                        <a href="contact.php">Contacto</a>
                                     </li>
                                 </ul>
                             </nav>
                             <div class="header-btn d-inline-block">
-                                <a href="contact.html" class="button-round-secondary">JOIN US NOW</a>
+                                <a href="contact.php" class="button-round-secondary">JOIN US NOW</a>
                             </div>
                         </div>
                     </div>
@@ -213,7 +176,7 @@
                 <div class="inner-baner-container" style="background-image: url(assets/img/educator-img12.jpg);">
                     <div class="container">
                         <div class="inner-banner-content">
-                            <h1 class="inner-title">contact</h1>
+                            <h1 class="inner-title">contacto</h1>
                         </div>
                     </div>
                 </div>
@@ -223,7 +186,7 @@
             <div class="contact-page-section">
                 <div class="container">
                     <div class="map-section">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d317838.95217734354!2d-0.27362819527326965!3d51.51107287614788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604c7c7eb9be3%3A0x3918653583725b56!2sRiverside%20Building%2C%20County%20Hall%2C%20Westminster%20Bridge%20Rd%2C%20London%20SE1%207JA%2C%20UK!5e0!3m2!1sen!2snp!4v1632135241093!5m2!1sen!2snp" height="400" allowfullscreen="" loading="lazy"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3857.790394981466!2d-90.1995035!3d14.7808331!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589ef49fde24de1%3A0x3260cb4e4d3f1163!2sUMG%20Sanarate!5e0!3m2!1ses-419!2sgt!4v1699241986909!5m2!1ses-419!2sgt" height="400" allowfullscreen="" loading="lazy"></iframe>
                     </div>
                     <div class="contact-form-inner">
                         <div class="pattern-overlay zigzag-patten"></div>
@@ -340,7 +303,8 @@
                                     <a href="index.html"><img src="assets/img/educator-logo1.png" alt="logo"></a>
                                 </div>
                                 <div class="textwidget widget-text">
-                                    Vero, tempor morbi, adipiscing aliqua nonummy proident perferendis? Laboris lacus quidem repellendus quasi.
+                                    "y conoceréis la verdad, y la verdad os hará libres"
+                                    Juan 8:32.
                                 </div>
                             </aside>
                             <div class="footer-social-links">
@@ -414,7 +378,7 @@
                                     8 AM - 5 PM , Monday - Saturday
                                 </span>
                                 <p>Aut, quae convallis minim cum ornare! Pede dictum convallis.</p>
-                                <a href="contact.html" class="button-round-secondary ">JOIN US NOW</a>
+                                <a href="contact.php" class="button-round-secondary ">JOIN US NOW</a>
                             </aside>
                         </div>
                     </div>
@@ -424,7 +388,7 @@
                 <div class="bottom-footer">
                     <div class="row">
                         <div class="col-md-6">
-                            <div class="copy-right">Copyright &copy; 2023 Educator. All rights reserved.</div>
+                            <div class="copy-right">Copyright &copy; 2023 UMG Sanarate. All rights reserved.</div>
                         </div>
                         <div class="col-md-6">
                             <div class="legal-list">
