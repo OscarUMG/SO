@@ -275,25 +275,7 @@
         <!-- footer part -->
         <footer id="colophon" class="site-footer">
             <div class="footer-overlay"></div>
-            <div class="subscribe-section">
-                <div class="container">
-                    <div class="subscribe-content">
-                        <div class="overlay"></div>
-                        <div class="row align-items-center">
-                            <div class="col-lg-5">
-                                <h3 class="subscribe-title">Subscribe Our Newsletter !</h3>
-                                <p class="subscribe-info">Elementum ex similique sollicitudin eveniet sem eveniet proin, iste euismod! Quia! Fugiat molestie leo placerat.</p>
-                            </div>
-                            <div class="col-lg-7">
-                                <div class="form-content">
-                                    <input type="email" name="email" placeholder="Enter Email Address">
-                                    <button type="submit" class="button-round-primary">SUBSCRIBE</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
             <div class="top-footer">
                 <div class="container">
                     <div class="row">

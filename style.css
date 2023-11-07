@@ -614,7 +614,7 @@ a:visited {
   left: 0;
   -webkit-mask-size: 22px;
   mask-size: 22px;
-  background-color: #CD2A2A;
+  background-color: #C45C73;
   background-size: 22px;
   -webkit-mask-repeat: repeat-x;
   mask-repeat: repeat-x;
@@ -637,7 +637,7 @@ a:visited {
   left: 0;
   -webkit-mask-size: 22px;
   mask-size: 22px;
-  background-color: #CD2A2A;
+  background-color: #C45C73;
   background-size: 22px;
   -webkit-mask-repeat: repeat-x;
   mask-repeat: repeat-x;
@@ -696,14 +696,14 @@ a:visited {
   }
 }
 .counter-inner .counter-item .counter-no {
-  color: #1471A7;
+  color: #015CA1;
   font-size: 52px;
   font-family: "Mulish", sans-serif;
   font-weight: 900;
   line-height: 1.2;
 }
 .counter-inner .counter-item .Completed {
-  color: #CD2A2A;
+  color: #C45C73;
 }
 
 /*--------------------------------------------------------------
@@ -827,7 +827,7 @@ input[type=datetime]:focus,
 input[type=datetime-local]:focus,
 input[type=color]:focus,
 textarea:focus {
-  border-color: #1471A7;
+  border-color: #015CA1;
   outline: 0;
 }
 input[type=text]:-webkit-autofill, input[type=text]:-webkit-autofill:hover, input[type=text]:-webkit-autofill:focus, input[type=text]:-webkit-autofill:active,
@@ -995,7 +995,7 @@ form label {
   padding: 0 55px 0 10px;
 }
 .search-form button {
-  background-color: #1471A7;
+  background-color: #015CA1;
   -webkit-border-radius: 0 30px 30px 0;
   -moz-border-radius: 0 30px 30px 0;
   -ms-border-radius: 0 30px 30px 0;
@@ -1047,7 +1047,7 @@ form label {
   top: 2px;
 }
 .form-group label .custom-checkbox:before {
-  background-color: #1471A7;
+  background-color: #015CA1;
   content: "\f00c";
   font-family: "Font Awesome 5 Free";
   height: 100%;
@@ -1067,7 +1067,7 @@ form label {
   z-index: -9;
 }
 .form-group label input:checked ~ .custom-checkbox {
-  border-color: #1471A7;
+  border-color: #015CA1;
 }
 .form-group label input:checked ~ .custom-checkbox:before {
   opacity: 1;
@@ -1098,7 +1098,7 @@ input[type=button],
 input[type=reset],
 input[type=submit] {
   border: none;
-  background-color: #1471A7;
+  background-color: #015CA1;
   color: #ffffff;
   cursor: pointer;
   padding: 15px 30px;
@@ -1143,12 +1143,12 @@ input[type=submit]:focus {
 }
 
 .button-round-primary {
-  background-color: #1471A7;
+  background-color: #015CA1;
   color: #ffffff;
 }
 
 .button-round-secondary {
-  background-color: #CD2A2A;
+  background-color: #C45C73;
   color: #ffffff;
 }
 
@@ -1180,7 +1180,7 @@ input[type=submit]:focus {
   transition: all 0.4s;
 }
 .button-text:hover, .button-text:focus, .button-text:active {
-  color: #1471A7;
+  color: #015CA1;
 }
 
 /*--------------------------------------------------------------
@@ -1211,11 +1211,11 @@ input[type=submit]:focus {
 }
 
 .primary-bg {
-  background-color: #1471A7;
+  background-color: #015CA1;
 }
 
 .secondary-bg {
-  background-color: #CD2A2A;
+  background-color: #C45C73;
 }
 
 .bg-transparent-img {
@@ -1239,11 +1239,11 @@ input[type=submit]:focus {
 }
 
 .primary-color {
-  color: #1471A7;
+  color: #015CA1;
 }
 
 .secondary-color {
-  color: #CD2A2A;
+  color: #C45C73;
 }
 
 .title-color {
@@ -1304,7 +1304,7 @@ input[type=submit]:focus {
   top: 0;
 }
 .rating-start-wrap .rating-start span:before {
-  color: #CD2A2A;
+  color: #C45C73;
   content: "\f005\f005\f005\f005\f005";
   display: inline-block;
   font-family: "Font Awesome 5 free";
@@ -1323,7 +1323,7 @@ input[type=submit]:focus {
 }
 .social-links a {
   font-size: 16px;
-  color: #1471A7;
+  color: #015CA1;
   -webkit-transition: color 0.4s;
   -moz-transition: color 0.4s;
   -ms-transition: color 0.4s;
@@ -1354,7 +1354,7 @@ input[type=submit]:focus {
   flex-grow: 1;
 }
 .social-icon-wrap .social-icon a {
-  background-color: #1471A7;
+  background-color: #015CA1;
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
   -ms-border-radius: 25px;
@@ -1463,7 +1463,7 @@ input[type=submit]:focus {
   padding: 20px 25px;
 }
 .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus, .nav-tabs .nav-link.active {
-  color: #1471A7;
+  color: #015CA1;
 }
 
 .tab-container {
@@ -1595,7 +1595,7 @@ input[type=submit]:focus {
   top: -30px;
 }
 .progress-wrapper .ab-progress .progress-indecator-inner span {
-  background-color: #CD2A2A;
+  background-color: #C45C73;
   color: #ffffff;
   padding: 2px 7px;
   font-size: 12px;
@@ -1603,7 +1603,7 @@ input[type=submit]:focus {
   z-index: 1;
 }
 .progress-wrapper .ab-progress .progress-indecator-inner span:before {
-  background-color: #CD2A2A;
+  background-color: #C45C73;
   content: "";
   width: 15px;
   height: 15px;
@@ -1625,7 +1625,7 @@ input[type=submit]:focus {
   height: 3px;
 }
 .progress-wrapper .progress-inline .ab-progress-bar {
-  background: #CD2A2A;
+  background: #C45C73;
   box-shadow: none;
   height: 3px;
   position: relative;
@@ -1768,14 +1768,14 @@ input[type=submit]:focus {
   display: none;
 }
 .slick-dots li button:hover {
-  background-color: #1471A7;
+  background-color: #015CA1;
 }
 .slick-dots li.slick-active button {
-  background-color: #1471A7;
+  background-color: #015CA1;
 }
 
 .video-button a {
-  background-color: #1471A7;
+  background-color: #015CA1;
   display: inline-block;
   position: relative;
   cursor: pointer;
@@ -1873,13 +1873,13 @@ input[type=submit]:focus {
   transition: all 0.5s;
 }
 .pagination li a:hover {
-  background-color: #1471A7;
-  border-color: #1471A7;
+  background-color: #015CA1;
+  border-color: #015CA1;
   color: #ffffff;
 }
 .pagination li.active a {
-  background-color: #1471A7;
-  border-color: #1471A7;
+  background-color: #015CA1;
+  border-color: #015CA1;
   color: #ffffff;
 }
 
@@ -1896,7 +1896,7 @@ input[type=submit]:focus {
 >>> Main Header 
 ----------------------------------------------------------------*/
 .site-header {
-  background-color: #1471A7;
+  background-color: #015CA1;
   width: 100%;
   z-index: 10;
 }
@@ -1950,7 +1950,7 @@ input[type=submit]:focus {
   color: #961040;
 }
 .header-contact-info ul li i {
-  color: #CD2A2A;
+  color: #C45C73;
   font-size: 14px;
   font-weight: 900;
 }
@@ -2157,7 +2157,7 @@ input[type=submit]:focus {
 }
 .site-header .main-navigation ul ul {
   background: #ffffff;
-  border-top: 4px solid #CD2A2A;
+  border-top: 4px solid #C45C73;
   left: 0;
   margin: 0;
   padding: 0;
@@ -2191,7 +2191,7 @@ input[type=submit]:focus {
 }
 .site-header .main-navigation ul ul li a:hover, .site-header .main-navigation ul ul li a:focus, .site-header .main-navigation ul ul li a:active {
   padding-left: 30px;
-  color: #1471A7;
+  color: #015CA1;
 }
 .site-header .main-navigation ul ul li > ul {
   left: 100%;
@@ -2243,7 +2243,7 @@ input[type=submit]:focus {
   color: #ffffff;
 }
 .site-header .main-navigation ul li.current-menu-item > a, .site-header .main-navigation ul li.current-menu-parent > a {
-  color: #CD2A2A;
+  color: #C45C73;
 }
 
 @-webkit-keyframes slide-up {
@@ -2411,7 +2411,7 @@ input[type=submit]:focus {
   text-align: center;
 }
 .header-search-form .search-close {
-  color: #CD2A2A;
+  color: #C45C73;
   position: absolute;
   top: 20px;
   right: 20px;
@@ -2813,7 +2813,7 @@ input[type=submit]:focus {
 >>> Home banner section  
 ----------------------------------------------------------------*/
 .home-banner {
-  background-color: #1471A7; /*MODIFICAR COLOR*/
+  background-color: #015CA1; /*MODIFICAR COLOR*/
   min-height: 720px;
   position: relative;
   z-index: 1;
@@ -2953,14 +2953,14 @@ input[type=submit]:focus {
   display: inline-block;
   border-radius: 100%;
   background-color: #f8f8f8;
-  color: #1471A7;
+  color: #015CA1;
 }
 .home-service .service-wrapper .service-content .course-type .course-title {
   margin-bottom: 10px;
 }
 .home-service .service-wrapper .service-content .course-type .course-durations {
   margin-bottom: 0;
-  color: #CD2A2A;
+  color: #C45C73;
 }
 .home-service .service-wrapper .service-content .course-form {
   grid-column: 3/span 2;
@@ -3050,7 +3050,7 @@ input[type=submit]:focus {
 }
 .home-about-us .about-left-content .skill-container .skill-wrapper .skill-titile {
   margin-bottom: 0;
-  color: #1471A7;
+  color: #015CA1;
 }
 .home-about-us .about-left-content .skill-container .skill-wrapper .progress-wrapper {
   padding-top: 10px;
@@ -3059,7 +3059,7 @@ input[type=submit]:focus {
   background-color: #f8f8f8;
 }
 .home-about-us .about-left-content .skill-container .skill-wrapper .progress-wrapper .ab-progress-bar {
-  background-color: #1471A7;
+  background-color: #015CA1;
 }
 .home-about-us .about-left-content .skill-container .skill-wrapper .progress-wrapper .progress-indecator-inner .percent {
   background-color: transparent;
@@ -3113,7 +3113,7 @@ input[type=submit]:focus {
 .home-about-us .about-left-content .regarding-us .qulifaction-content .qualification-tag .qualifaction-icon i {
   font-size: 35px;
   font-weight: 400;
-  color: #CD2A2A;
+  color: #C45C73;
 }
 .home-about-us .about-left-content .regarding-us .qulifaction-content .qualification-tag .qualifaction-title h5 {
   margin-bottom: 0;
@@ -3150,7 +3150,7 @@ input[type=submit]:focus {
   z-index: 1;
 }
 .home-progress-section .overlay {
-  background-color: #1471A7;
+  background-color: #015CA1;
   opacity: 0.92;
 }
 .home-progress-section .counter-inner .counter-item-wrap .counter-item {
@@ -3204,7 +3204,7 @@ input[type=submit]:focus {
   font-family: "Mulish", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  color: #CD2A2A;
+  color: #C45C73;
   line-height: 1.1;
 }
 
@@ -3311,7 +3311,7 @@ input[type=submit]:focus {
   margin-bottom: 5px;
 }
 .home-team-section .group-member .team-content p {
-  color: #CD2A2A;
+  color: #C45C73;
 }
 .home-team-section .group-member .team-social-link ul li {
   margin-left: 6px;
@@ -3335,7 +3335,7 @@ input[type=submit]:focus {
   height: 34px;
   line-height: 34px;
   position: relative;
-  background-color: #1471A7;
+  background-color: #015CA1;
   border-radius: 100%;
   text-align: center;
   vertical-align: middle;
@@ -3373,7 +3373,7 @@ input[type=submit]:focus {
   }
 }
 .home-fact-section .overlay {
-  background-color: #1471A7;
+  background-color: #015CA1;
   opacity: 0.94;
   z-index: -1;
 }
@@ -3408,7 +3408,7 @@ input[type=submit]:focus {
   line-height: 1.2;
 }
 .home-fact-section .fact-section-head .fact-list ul li:before {
-  color: #CD2A2A;
+  color: #C45C73;
   content: "\eab0";
   font-family: "elementskit";
   font-weight: 400;
@@ -3652,7 +3652,7 @@ input[type=submit]:focus {
 }
 .home-testimonial-section .client-content .author-info .author-title {
   font-size: 13px;
-  color: #CD2A2A;
+  color: #C45C73;
   font-weight: 400;
   line-height: 1;
   display: inline-block;
@@ -3744,7 +3744,7 @@ input[type=submit]:focus {
 }
 .home-blog-section .inner-blog-wrap .post .feature-image .cat-meta a {
   padding: 7px 14px;
-  background-color: #CD2A2A;
+  background-color: #C45C73;
   color: #ffffff;
   font-size: 12px;
   font-weight: 400;
@@ -3824,7 +3824,7 @@ input[type=submit]:focus {
 }
 .home-feature-section .feature-wrapper .feature-type .feature-icon i {
   font-size: 100px;
-  color: #CD2A2A;
+  color: #C45C73;
   font-weight: 400;
 }
 .home-feature-section .feature-wrapper .feature-type .feature-icon .meta-no {
@@ -3834,7 +3834,7 @@ input[type=submit]:focus {
   position: absolute;
   top: -20px;
   right: -35px;
-  background-color: #CD2A2A;
+  background-color: #C45C73;
   color: #fff;
   margin-bottom: 0;
 }
@@ -3858,7 +3858,7 @@ input[type=submit]:focus {
   border-radius: 100%;
   background-color: #ffffff;
   box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
-  color: #CD2A2A;
+  color: #C45C73;
 }
 .home-feature-section .feature-wrapper .feature-type .right-arrow-link:hover {
   animation-name: bounce;
@@ -3872,10 +3872,10 @@ input[type=submit]:focus {
   color: #ffffff;
 }
 .home-feature-section .feature-wrapper .feature-type:nth-child(even) .feature-icon i {
-  color: #1471A7;
+  color: #015CA1;
 }
 .home-feature-section .feature-wrapper .feature-type:nth-child(even) .feature-icon .meta-no {
-  background-color: #1471A7;
+  background-color: #015CA1;
 }
 
 @keyframes bounce {
@@ -3921,7 +3921,7 @@ input[type=submit]:focus {
   width: 100px;
   height: 100px;
   line-height: 100px;
-  background-color: #CD2A2A;
+  background-color: #C45C73;
 }
 .home-goal-section .inner-goal-image .video-play-image .video-button a:before, .home-goal-section .inner-goal-image .video-play-image .video-button a:after {
   box-shadow: 0 0 0 0 rgba(242, 64, 128, 0.6);
@@ -4027,7 +4027,7 @@ input[type=submit]:focus {
   left: 30px;
   padding: 3px 15px;
   border-radius: 25px;
-  background-color: #CD2A2A;
+  background-color: #C45C73;
 }
 .home-course-section .inner-course-wrap .post .feature-image .cat-meta a {
   color: #ffffff;
@@ -4077,7 +4077,7 @@ input[type=submit]:focus {
   top: 0;
 }
 .home-course-section .inner-course-wrap .post .entry-content .rating-content .rating-start-wrap .rating-start span:before {
-  color: #CD2A2A;
+  color: #C45C73;
   content: "\f005\f005\f005\f005\f005";
   display: inline-block;
   font-family: "Font Awesome 5 free";
@@ -4111,7 +4111,7 @@ input[type=submit]:focus {
 }
 .home-course-section .inner-course-wrap .post .entry-content .entry-meta .student-number i {
   margin-right: 11px;
-  color: #CD2A2A;
+  color: #C45C73;
 }
 .home-course-section .inner-course-wrap .post .entry-content .entry-meta a {
   color: #111111;
@@ -4124,13 +4124,13 @@ input[type=submit]:focus {
   margin-left: 10px;
 }
 .home-course-section .inner-course-wrap .inner-course:nth-child(even) .cat-meta {
-  background-color: #1471A7;
+  background-color: #015CA1;
 }
 .home-course-section .inner-course-wrap .inner-course:nth-child(even) .entry-content .rating-content .rating-start-wrap .rating-start span:before {
-  color: #1471A7;
+  color: #015CA1;
 }
 .home-course-section .inner-course-wrap .inner-course:nth-child(even) .entry-content .student-number i {
-  color: #1471A7;
+  color: #015CA1;
 }
 .home-course-section .course-bhn {
   margin-top: 70px;
@@ -4141,7 +4141,7 @@ input[type=submit]:focus {
 >>> Main Footer  
 ----------------------------------------------------------------*/
 .site-footer {
-  background-image: url(assets/img/educator-img12.jpg);
+  /* background-image: url(assets/img/educator-img12.jpg); */
   background-repeat: no-repeat;
   background-position: center center;
   position: relative;
@@ -4150,7 +4150,7 @@ input[type=submit]:focus {
   background-size: cover;
 }
 .site-footer .footer-overlay {
-  background-color: #1471A7;
+  background-color: #23272E;
   opacity: 0.98;
   top: 0;
   left: 0;
@@ -4172,7 +4172,7 @@ input[type=submit]:focus {
   }
 }
 .site-footer .subscribe-section .subscribe-content .overlay {
-  background-color: #CD2A2A;
+  background-color: #C45C73;
   opacity: 0.3;
 }
 .site-footer .subscribe-section .subscribe-content .subscribe-title {
@@ -4218,7 +4218,7 @@ input[type=submit]:focus {
 }
 .site-footer .subscribe-section .subscribe-content .form-content button {
   padding: 16px 28px;
-  background-color: #1471A7;
+  background-color: #015CA1;
   color: white;
   font-size: 15px;
   font-family: "Mulish", sans-serif;
@@ -4336,7 +4336,7 @@ input[type=submit]:focus {
   font-weight: 400;
 }
 .site-footer .bottom-footer .legal-list ul li a:hover {
-  color: #CD2A2A;
+  color: #C45C73;
 }
 @media screen and (max-width: 767px) {
   .site-footer .bottom-footer .copy-right {
@@ -4370,7 +4370,7 @@ input[type=submit]:focus {
   font-size: 15px;
 }
 .top-footer .widget ul li a:hover, .top-footer .widget ul li a:focus, .top-footer .widget ul li a:active {
-  color: #CD2A2A;
+  color: #C45C73;
 }
 @media screen and (max-width: 991px) {
   .top-footer .widget {
@@ -4384,7 +4384,7 @@ input[type=submit]:focus {
 }
 .top-footer .school-time span i {
   font-size: 15px;
-  color: #CD2A2A;
+  color: #C45C73;
   padding-right: 5px;
 }
 .top-footer .school-time a {
@@ -4417,7 +4417,7 @@ input[type=submit]:focus {
   padding: 150px 0;
 }
 .inner-baner-container:before {
-  background-image: linear-gradient(180deg, #1471A7 0%, #1471A7E0 15%);
+  background-image: linear-gradient(180deg, #015CA1 0%, #015CA1E0 15%);
   content: "";
   display: block;
   opacity: 1;
@@ -4550,14 +4550,14 @@ input[type=submit]:focus {
 }
 .course-result-section .feature-left-content .skill-container .skill-wrapper .skill-titile {
   margin-bottom: 0;
-  color: #1471A7;
+  color: #015CA1;
   line-height: 1;
 }
 .course-result-section .feature-left-content .skill-container .skill-wrapper .progress-wrapper {
   padding-top: 15px;
 }
 .course-result-section .feature-left-content .skill-container .skill-wrapper .progress-wrapper .ab-progress-bar {
-  background-color: #1471A7;
+  background-color: #015CA1;
 }
 .course-result-section .feature-left-content .skill-container .skill-wrapper .progress-wrapper .progress-indecator-inner .percent {
   background-color: transparent;
@@ -4631,7 +4631,7 @@ input[type=submit]:focus {
   color: #414141;
 }
 .portfolio-detail-section .portfolio-inner-detail .project-summary ul li i {
-  color: #1471A7;
+  color: #015CA1;
   margin-right: 5px;
 }
 .portfolio-detail-section .portfolio-inner-detail .project-summary ul li i:before {
@@ -4717,7 +4717,7 @@ input[type=submit]:focus {
   border-bottom: none;
 }
 .portfolio-detail-section .sidebar .widget-service ul li:nth-child(even) .service-icon i {
-  background-color: #1471A7;
+  background-color: #015CA1;
 }
 .portfolio-detail-section .sidebar .widget-service ul li .service-icon {
   margin-right: 15px;
@@ -4748,7 +4748,7 @@ input[type=submit]:focus {
 .portfolio-detail-section .sidebar .sidebar-download .bg-title {
   margin-bottom: 25px;
   padding: 17px;
-  background-color: #1471A7;
+  background-color: #015CA1;
   color: #ffffff;
   border-radius: 30px;
   font-size: 18px;
@@ -4759,7 +4759,7 @@ input[type=submit]:focus {
 .portfolio-detail-section .sidebar .sidebar-download a {
   display: inline-block;
   padding: 15px 30px;
-  background-color: #1471A7;
+  background-color: #015CA1;
   color: #ffffff;
   font-size: 15px;
   font-weight: 500;
@@ -4777,7 +4777,7 @@ input[type=submit]:focus {
   padding: 30px;
   border-radius: 30px;
   box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.25);
-  background-color: #1471A7;
+  background-color: #015CA1;
 }
 .portfolio-detail-section .sidebar .icon-list-content .bg-title {
   margin-bottom: 30px;
@@ -4869,7 +4869,7 @@ input[type=submit]:focus {
 .about-section .about-banner .about-left-banner {
   display: flex;
   padding: 32px 25px 28px;
-  background-color: #1471A7;
+  background-color: #015CA1;
   border-radius: 25px;
   color: #ffffff;
   align-items: center;
@@ -4887,7 +4887,7 @@ input[type=submit]:focus {
   border-radius: 100%;
   text-align: center;
   background-color: #ffffff;
-  color: #CD2A2A;
+  color: #C45C73;
 }
 .about-section .about-banner .about-left-banner h3 {
   margin-bottom: 0;
@@ -4924,7 +4924,7 @@ input[type=submit]:focus {
   border-radius: 25px;
 }
 .about-section .about-banner .about-right-banner h5 {
-  color: #CD2A2A;
+  color: #C45C73;
   margin-bottom: 30px;
 }
 .about-section .about-banner .about-right-banner .video-button {
@@ -4935,7 +4935,7 @@ input[type=submit]:focus {
   height: 100px;
   width: 100px;
   line-height: 100px;
-  background-color: #CD2A2A;
+  background-color: #C45C73;
 }
 .about-section .about-banner .about-right-banner .video-button a:before, .about-section .about-banner .about-right-banner .video-button a:after {
   box-shadow: 0 0 0 0 rgba(242, 64, 128, 0.6);
@@ -5006,7 +5006,7 @@ input[type=submit]:focus {
   margin-bottom: 20px;
 }
 .blog-archive .grid-item .entry-meta a {
-  color: #1471A7;
+  color: #015CA1;
   font-size: 13px;
   font-weight: 600;
   line-height: 1.2;
@@ -5034,7 +5034,7 @@ input[type=submit]:focus {
 }
 .blog-archive .sidebar .socialgroup ul li a {
   border: none !important;
-  background-color: #1471A7;
+  background-color: #015CA1;
   padding: 3px 9px;
 }
 .blog-archive .sidebar .socialgroup ul li a i {
@@ -5061,7 +5061,7 @@ input[type=submit]:focus {
   line-height: 1.3;
 }
 .blog-archive .widget_social .social-icon a {
-  background-color: #1471A7;
+  background-color: #015CA1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -5116,7 +5116,7 @@ input[type=submit]:focus {
 .inner-banner-wrap .entry-meta span {
   padding: 0 15px;
   position: relative;
-  color: #CD2A2A;
+  color: #C45C73;
 }
 .inner-banner-wrap .entry-meta span:before {
   color: rgba(217, 217, 217, 0.23);
@@ -5132,15 +5132,15 @@ input[type=submit]:focus {
 }
 .inner-banner-wrap .entry-meta .posted-on a:before {
   content: "\f073";
-  color: #CD2A2A;
+  color: #C45C73;
 }
 .inner-banner-wrap .entry-meta .byline a:before {
   content: "\f2bd";
-  color: #CD2A2A;
+  color: #C45C73;
 }
 .inner-banner-wrap .entry-meta .comments-link a:before {
   content: "\f086";
-  color: #CD2A2A;
+  color: #C45C73;
 }
 .inner-banner-wrap .entry-meta a {
   color: #ffffff;
@@ -5156,7 +5156,7 @@ input[type=submit]:focus {
   -ms-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
-  color: #1471A7;
+  color: #015CA1;
   font-size: 13px;
 }
 .inner-banner-wrap .entry-meta a:hover, .inner-banner-wrap .entry-meta a:focus {
@@ -5192,7 +5192,7 @@ input[type=submit]:focus {
 }
 .single-post-section .meta-wrap .tag-links:before {
   content: "\f02c";
-  color: #CD2A2A;
+  color: #C45C73;
   display: inline-block;
   font-family: "Font Awesome 5 Free";
   margin-right: 6px;
@@ -5265,7 +5265,7 @@ input[type=submit]:focus {
   margin-bottom: 20px;
 }
 .single-post-section .author-wrap .author-content .button-text {
-  color: #CD2A2A;
+  color: #C45C73;
   font-weight: 500;
 }
 .single-post-section .author-wrap .author-content .button-text:hover {
@@ -5322,7 +5322,7 @@ input[type=submit]:focus {
   width: 100%;
 }
 .post-navigation .nav-label {
-  color: #CD2A2A;
+  color: #C45C73;
   font-size: 13px;
   font-weight: 600;
   text-transform: uppercase;
@@ -5347,7 +5347,7 @@ input[type=submit]:focus {
 }
 .post-navigation .nav-prev a:before,
 .post-navigation .nav-next a:before {
-  color: #CD2A2A;
+  color: #C45C73;
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   font-size: 30px;
@@ -5465,7 +5465,7 @@ input[type=submit]:focus {
   margin-left: 10px;
 }
 .comment-area .comment-content .reply {
-  background-color: #CD2A2A;
+  background-color: #C45C73;
   font-size: 14px;
   color: #ffffff;
   padding: 5px 12px 6px;
@@ -5524,7 +5524,7 @@ input[type=submit]:focus {
 }
 .comment-form-wrap input[type=submit] {
   margin-top: 0px;
-  background-color: #CD2A2A;
+  background-color: #C45C73;
 }
 .comment-form-wrap input[type=submit]:hover {
   background-color: #961040;
@@ -5581,7 +5581,7 @@ input[type=submit]:focus {
   color: #961040;
 }
 .secondary .sidebar .social-icon ul li a i {
-  color: #CD2A2A;
+  color: #C45C73;
   display: inline-block;
   text-align: center;
   font-size: 18px;
@@ -5618,7 +5618,7 @@ input[type=submit]:focus {
 .secondary .widget_social ul li a {
   border-radius: 50%;
   border: none;
-  background-color: #CD2A2A;
+  background-color: #C45C73;
 }
 .secondary .widget_social ul li a:hover {
   border-color: transparent;
@@ -5659,7 +5659,7 @@ input[type=submit]:focus {
 .team-detail-section .author-img-wrapper .auther-quote {
   text-align: left;
   margin-right: 25px;
-  background-color: #1471A7;
+  background-color: #015CA1;
   padding: 30px;
   margin-top: -60px;
   position: relative;
@@ -5743,7 +5743,7 @@ input[type=submit]:focus {
 .team-detail-section .author-bio-date .social-site-link ul li a {
   padding: 8px;
   border-radius: 50%;
-  border: 1px solid #CD2A2A;
+  border: 1px solid #C45C73;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -5752,7 +5752,7 @@ input[type=submit]:focus {
 }
 .team-detail-section .author-bio-date .social-site-link ul li a i {
   font-size: 15px;
-  color: #CD2A2A;
+  color: #C45C73;
   height: 1em;
   width: 1em;
   position: relative;
@@ -5777,7 +5777,7 @@ input[type=submit]:focus {
 .team-detail-section .author-bio-date .qualification .experience-detail .date {
   color: #111111;
   margin-bottom: 6px;
-  color: #CD2A2A;
+  color: #C45C73;
 }
 .team-detail-section .author-bio-date .qualification .experience-detail span {
   color: #414141;
@@ -5821,7 +5821,7 @@ input[type=submit]:focus {
   font-family: "Poppins", sans-serif;
 }
 .team-detail-section .experience-wrappered .experience-list ul li i {
-  color: #CD2A2A;
+  color: #C45C73;
   font-size: 14px;
   padding-right: 12px;
 }
@@ -5868,7 +5868,7 @@ input[type=submit]:focus {
   background-color: #d9d9d9;
 }
 .team-detail-section .experience-wrappered .skill-container .skill-wrapper .progress-wrapper .progress-bar-wrap .ab-progress-bar {
-  background-color: #CD2A2A;
+  background-color: #C45C73;
   height: 16px;
   border-radius: 0px;
 }
@@ -5888,7 +5888,7 @@ input[type=submit]:focus {
   border-radius: 30px;
 }
 .vacancy-container .vacancy-form h4 {
-  background-color: #1471A7;
+  background-color: #015CA1;
   color: white;
   padding: 14px;
   border-radius: 30px;
@@ -5929,7 +5929,7 @@ input[type=submit]:focus {
   height: 59px;
 }
 .vacancy-container .vacancy-form input[type=submit] {
-  background-color: #CD2A2A;
+  background-color: #C45C73;
   color: #ffffff;
   padding: 16px 28px;
   font-size: 15px;
@@ -5970,7 +5970,7 @@ input[type=submit]:focus {
   opacity: 0.2;
 }
 .vacancy-content span {
-  color: #CD2A2A;
+  color: #C45C73;
   margin-bottom: 25px;
   display: block;
 }
@@ -5983,7 +5983,7 @@ input[type=submit]:focus {
   border: none;
 }
 .vacancy-content-wrap [class*=col-]:first-child .vacancy-content .button-round-primary, .vacancy-content-wrap [class*=col-]:nth-child(4n+4) .vacancy-content .button-round-primary, .vacancy-content-wrap [class*=col-]:nth-child(4n+5) .vacancy-content .button-round-primary {
-  background-color: #CD2A2A;
+  background-color: #C45C73;
 }
 
 .about-service-wrap {
@@ -6065,7 +6065,7 @@ input[type=submit]:focus {
   width: 100%;
 }
 .iconbox-item-3:nth-child(even) .iconbox-icon {
-  background-color: #1471A7;
+  background-color: #015CA1;
 }
 @media screen and (min-width: 768px) {
   .iconbox-item-3 {
@@ -6085,7 +6085,7 @@ input[type=submit]:focus {
   border-radius: 18px 25px 22px;
 }
 .iconbox-border .iconbox-icon {
-  background-color: #CD2A2A;
+  background-color: #C45C73;
   color: #ffffff;
   font-size: 32px;
   width: 78px;
@@ -6122,7 +6122,7 @@ input[type=submit]:focus {
   font-style: normal;
 }
 .career-detail-section .job-description {
-  background-color: #1471A7;
+  background-color: #015CA1;
   border-radius: 30px;
   overflow: hidden;
 }
@@ -6222,14 +6222,14 @@ input[type=submit]:focus {
   margin-bottom: 0;
 }
 .career-detail-section .sidebar .widget-bg .bg-title {
-  background-color: #CD2A2A;
+  background-color: #C45C73;
 }
 .career-detail-section .sidebar .widget-bg ul li {
   color: #414141;
 }
 .career-detail-section .sidebar .widget-bg ul li i {
   font-size: 14px;
-  color: #CD2A2A;
+  color: #C45C73;
 }
 .career-detail-section .sidebar .widget-bg ul li .list-txt {
   font-size: 15px;
@@ -6248,14 +6248,14 @@ input[type=submit]:focus {
   color: #414141;
 }
 .career-detail-section .sidebar .widget-bg .widget-icon {
-  background-color: #1471A7;
+  background-color: #015CA1;
   margin-bottom: 25px;
 }
 .career-detail-section .sidebar .widget-bg p a {
-  color: #CD2A2A;
+  color: #C45C73;
 }
 .career-detail-section .sidebar .widget-bg .or-style {
-  color: #CD2A2A;
+  color: #C45C73;
   font-family: "Mulish", sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -6264,7 +6264,7 @@ input[type=submit]:focus {
 }
 .career-detail-section .sidebar .widget-bg .or-style:before, .career-detail-section .sidebar .widget-bg .or-style:after {
   width: 25px;
-  background-color: #CD2A2A;
+  background-color: #C45C73;
 }
 
 /*--------------------------------------------------------------
@@ -6336,7 +6336,7 @@ input[type=submit]:focus {
 }
 .course-detail-section .course-description h3 {
   margin-bottom: 0;
-  color: #CD2A2A;
+  color: #C45C73;
 }
 .course-detail-section .course-description .course-teach-tag .author-img {
   border-radius: 50%;
@@ -6369,7 +6369,7 @@ input[type=submit]:focus {
   margin-bottom: 0;
 }
 .course-detail-section .course-description .rating-start-wrap .rating-start span:before {
-  color: #1471A7;
+  color: #015CA1;
 }
 @media screen and (min-width: 992px) {
   .course-detail-section .course-detail-container {
@@ -6453,7 +6453,7 @@ input[type=submit]:focus {
 }
 .course-detail-section .sidebar .widget-bg ul li i {
   font-size: 14px;
-  color: #CD2A2A;
+  color: #C45C73;
 }
 .course-detail-section .sidebar .widget-bg ul li span {
   font-size: 15px;
@@ -6463,7 +6463,7 @@ input[type=submit]:focus {
   color: #414141;
 }
 .course-detail-section .sidebar .widget-post-thumb {
-  background-color: #CD2A2A;
+  background-color: #C45C73;
   padding: 40px 30px 26px 30px;
 }
 .course-detail-section .sidebar .widget-post-thumb .bg-title {
@@ -6533,7 +6533,7 @@ input[type=submit]:focus {
   bottom: 0;
   height: 100%;
   width: 100%;
-  background-color: #1471A7;
+  background-color: #015CA1;
   opacity: 0.4;
   z-index: -1;
   position: absolute;
@@ -6616,7 +6616,7 @@ input[type=submit]:focus {
   opacity: 0.3;
 }
 .qsn-form-container h4 {
-  background-color: #1471A7;
+  background-color: #015CA1;
   color: #ffffff;
   padding: 14px;
   border-radius: 30px;
@@ -6647,7 +6647,7 @@ input[type=submit]:focus {
 }
 .qsn-form-container input[type=submit] {
   color: #ffffff;
-  background-color: #CD2A2A;
+  background-color: #C45C73;
   font-weight: 700;
   font-family: "Mulish", sans-serif;
 }
@@ -6697,7 +6697,7 @@ input[type=submit]:focus {
   width: 100%;
 }
 .faq-testimonial .testimonial-content {
-  background-color: #CD2A2A;
+  background-color: #C45C73;
   color: #ffffff;
   margin-right: 25px;
   margin-top: -50px;
@@ -6794,7 +6794,7 @@ input[type=submit]:focus {
   color: #414141;
 }
 .search-section .button-container .button-text {
-  color: #CD2A2A;
+  color: #C45C73;
   text-transform: uppercase;
   font-size: 15px;
   font-weight: 700;
@@ -6851,7 +6851,7 @@ input[type=submit]:focus {
   padding: 17px;
   top: 0;
   right: 0;
-  background-color: #CD2A2A;
+  background-color: #C45C73;
   transition: all 0.3s;
   height: 100%;
 }
@@ -6889,7 +6889,7 @@ input[type=submit]:focus {
 }
 .pagination li.active a {
   background-color: transparent;
-  color: #1471A7;
+  color: #015CA1;
 }
 
 /*--------------------------------------------------------------
@@ -6972,14 +6972,14 @@ input[type=submit]:focus {
 }
 .no-content-wrap .search-form-wrap .search-form input {
   padding: 0 55px 0 20px;
-  border-color: #CD2A2A;
+  border-color: #C45C73;
 }
 .no-content-wrap .search-form-wrap .search-form button {
   padding: 10px 20px;
   top: 0;
   right: 0;
   height: 100%;
-  background-color: #CD2A2A;
+  background-color: #C45C73;
 }
 @media screen and (max-width: 767px) {
   .no-content-wrap span {
@@ -7021,10 +7021,10 @@ input[type=submit]:focus {
   color: #ffffff;
 }
 .comming-soon-section .primary-color {
-  color: #1471A7;
+  color: #015CA1;
 }
 .comming-soon-section .overlay {
-  background-color: #1471A7;
+  background-color: #015CA1;
   opacity: 0.58;
   z-index: 1;
 }
@@ -7087,7 +7087,7 @@ input[type=submit]:focus {
   text-align: center;
 }
 .comming-soon-section .time-counter .counter-time {
-  background-color: #CD2A2A;
+  background-color: #C45C73;
   width: 160px;
   margin: 15px;
   padding: 30px;
@@ -7260,7 +7260,7 @@ input[type=submit]:focus {
   width: 80px;
   height: 80px;
   line-height: 80px;
-  background-color: #1471A7;
+  background-color: #015CA1;
   color: #ffffff;
   font-size: 40px;
   border-radius: 50%;
@@ -7343,7 +7343,7 @@ input[type=submit]:focus {
   width: 100%;
   min-height: 40px;
   padding: 16px 28px;
-  background-color: #CD2A2A;
+  background-color: #C45C73;
 }
 
 /*--------------------------------------------------------------
@@ -7506,14 +7506,14 @@ input[type=submit]:focus {
   opacity: 0.5;
 }
 .product-item .product-content .product-price ins {
-  color: #CD2A2A;
+  color: #C45C73;
   text-decoration: underline;
 }
 .product-item .product-content .button-round-secondary {
   padding: 10px 15px;
 }
 .product-item .onsale {
-  background: #1471A7;
+  background: #015CA1;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
   -ms-border-radius: 30px;
@@ -7642,7 +7642,7 @@ input[type=submit]:focus {
   right: 0;
   font-size: 15px;
   border-radius: 0 30px 30px 0;
-  background-color: #CD2A2A;
+  background-color: #C45C73;
   color: white;
   padding: 16px;
   height: 100%;
@@ -7801,12 +7801,12 @@ procduct details css
   line-height: 1;
 }
 .product-summary .product-price ins {
-  color: #CD2A2A;
+  color: #C45C73;
 }
 .product-summary .product-price del {
   opacity: 0.5;
   display: inline-block;
-  color: #CD2A2A;
+  color: #C45C73;
   font-size: 42px;
 }
 .product-summary .product-desc {
@@ -7832,7 +7832,7 @@ procduct details css
   border: none;
   margin-left: 10px;
   padding: 14px 22px;
-  background-color: #CD2A2A;
+  background-color: #C45C73;
   color: #ffffff;
   line-height: 1.2;
   font-weight: 700;
@@ -7916,7 +7916,7 @@ procduct details css
   border: 1px solid #d3ced2;
   border-bottom: 1px solid #fff;
   margin-bottom: -1px;
-  color: #CD2A2A;
+  color: #C45C73;
 }
 .product-tab-outer .tab-container .responsive-tabs ul li a:hover {
   border-top-left-radius: 8px;
@@ -7949,7 +7949,7 @@ procduct details css
   line-height: 1.7;
 }
 .product-tab-outer .tab-container .responsive-tabs .tab-content .card-body .comment-area .comment-form .procduct-rate:before {
-  color: #1471A7;
+  color: #015CA1;
 }
 .product-tab-outer .tab-container .responsive-tabs .tab-content .card-body .comment-area .comment-form .aggrement-tick input {
   display: inline-block;
@@ -8039,7 +8039,7 @@ Related product css
   line-height: 1.1;
   margin-bottom: 40px;
   margin-top: 8px;
-  color: #CD2A2A;
+  color: #C45C73;
 }
 @media screen and (max-width: 767px) {
   .related-title h3 {
@@ -8069,7 +8069,7 @@ product slider range for price css
   margin-top: 20px;
 }
 #slider-range .ui-widget-header {
-  background-color: #CD2A2A;
+  background-color: #C45C73;
 }
 #slider-range .ui-corner-all, #slider-range.ui-widget-content {
   -webkit-border-radius: 30px;
@@ -8181,7 +8181,7 @@ product slider range for price css
   padding: 2px;
 }
 .cart-list-inner .table tr td .product-name {
-  color: #CD2A2A;
+  color: #C45C73;
   font-weight: 400;
 }
 @media screen and (max-width: 575px) {
@@ -8439,14 +8439,14 @@ product slider range for price css
   display: inline-block;
   border-radius: 100%;
   background-color: #f8f8f8;
-  color: #1471A7;
+  color: #015CA1;
 }
 .categories-section .service-wrapper .course-type .course-title {
   margin-bottom: 10px;
 }
 .categories-section .service-wrapper .course-type .course-durations {
   margin-bottom: 0;
-  color: #CD2A2A;
+  color: #C45C73;
 }
 
 .categories-goal-section {
@@ -8471,11 +8471,11 @@ product slider range for price css
   }
 }
 .categories-progress-section .counter-inner .counter-item .counter-no {
-  color: #1471A7;
+  color: #015CA1;
   font-size: 60px;
 }
 .categories-progress-section .counter-inner .counter-item .Completed {
-  color: #CD2A2A;
+  color: #C45C73;
   font-family: "Mulish", sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -8494,7 +8494,7 @@ product slider range for price css
   }
 }
 .policy-page-section .policy-inner h3, .policy-page-section .policy-inner h4 {
-  color: #CD2A2A;
+  color: #C45C73;
 }
 .policy-page-section .policy-inner p {
   color: #414141;
@@ -8568,7 +8568,7 @@ product slider range for price css
 }
 .single-post-section .right-sidebar .inner-blog-wrap .post .feature-image .cat-meta a {
   padding: 7px 14px;
-  background-color: #CD2A2A;
+  background-color: #C45C73;
   color: #ffffff;
   font-size: 12px;
   font-weight: 400;
@@ -8662,7 +8662,7 @@ product slider range for price css
   padding: 0;
 }
 .widget.author_widget .socialgroup ul li a {
-  color: #1471A7;
+  color: #015CA1;
   display: block;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -8670,7 +8670,7 @@ product slider range for price css
   border-radius: 50%;
   text-align: center;
   padding: 3px 9px;
-  border: 1px solid #1471A7;
+  border: 1px solid #015CA1;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -ms-transition: all 0.3s;
@@ -8932,7 +8932,7 @@ product slider range for price css
   padding: 0 55px 0 10px;
 }
 .widget.search_widget button {
-  background-color: #1471A7;
+  background-color: #015CA1;
   color: #ffffff;
   -webkit-border-radius: 0 25px 25px 0;
   -moz-border-radius: 0 25px 25px 0;
@@ -9030,7 +9030,7 @@ product slider range for price css
   margin-bottom: 0;
 }
 .widget.widget_text ul li i {
-  color: #1471A7;
+  color: #015CA1;
   position: absolute;
   left: 0;
   top: 4px;
@@ -9185,7 +9185,7 @@ product slider range for price css
   line-height: 1.2;
 }
 .widget.widget_category_product_thumb li .product-content .count {
-  color: #CD2A2A;
+  color: #C45C73;
   font-family: "Mulish", sans-serif;
   font-weight: 600;
   font-size: 13px;
@@ -9231,7 +9231,7 @@ product slider range for price css
   border-radius: 25px;
   border: 1px dashed #d9d9d9;
   margin-bottom: 35px;
-  color: #CD2A2A;
+  color: #C45C73;
   display: inline-block;
 }
 .sidebar .widget:last-child {
@@ -9287,12 +9287,12 @@ product slider range for price css
   border-bottom: none;
 }
 .sidebar .icon-list-content ul li i {
-  color: #1471A7;
+  color: #015CA1;
   margin-right: 8px;
   font-size: 18px;
 }
 .sidebar .icon-list-content ul li a {
-  color: #CD2A2A;
+  color: #C45C73;
   line-height: 1.3;
   font-weight: 600;
 }
@@ -9341,7 +9341,7 @@ product slider range for price css
   border-radius: 30px;
 }
 .sidebar .widget-bg .bg-title {
-  background-color: #1471A7;
+  background-color: #015CA1;
   color: #ffffff;
   padding: 17px;
   text-align: center;
@@ -9357,7 +9357,7 @@ product slider range for price css
   margin-bottom: 8px;
 }
 .sidebar .sidebar-list li i {
-  color: #CD2A2A;
+  color: #C45C73;
   margin-right: 10px;
   font-size: 14px;
 }
@@ -9368,7 +9368,7 @@ product slider range for price css
   text-transform: capitalize;
 }
 .sidebar .widget-icon {
-  background-color: #1471A7;
+  background-color: #015CA1;
   border-radius: 100%;
   color: #ffffff;
   height: 100px;
@@ -9381,7 +9381,7 @@ product slider range for price css
   margin-bottom: 20px;
 }
 .sidebar .or-style {
-  color: #1471A7;
+  color: #015CA1;
   display: table;
   font-size: 18px;
   font-weight: 400;
@@ -9393,7 +9393,7 @@ product slider range for price css
   margin-bottom: 20px;
 }
 .sidebar .or-style:before, .sidebar .or-style:after {
-  background-color: #1471A7;
+  background-color: #015CA1;
   content: "";
   width: 60px;
   height: 1px;
@@ -9423,7 +9423,7 @@ product slider range for price css
   }
 }
 .checkout-section .cheakout-title {
-  color: #1471A7;
+  color: #015CA1;
 }
 
 .checkout-field-wrap {
@@ -9483,7 +9483,7 @@ product slider range for price css
   line-height: 1;
   height: 50px;
   padding: 0 30px;
-  background-color: #CD2A2A;
+  background-color: #C45C73;
 }
 .checkout-field-wrap .coupon-field .form-group input {
   margin: 0 15px;
@@ -9495,7 +9495,7 @@ product slider range for price css
   margin-bottom: 15px;
 }
 .checkout-field-wrap .label-star {
-  color: #CD2A2A;
+  color: #C45C73;
   text-decoration: none;
   border-bottom: none;
 }
@@ -9602,7 +9602,7 @@ product slider range for price css
   }
 }
 .special-notes-wrap .Information-title {
-  color: #1471A7;
+  color: #015CA1;
 }
 .special-notes-wrap .form-group {
   margin-bottom: 0;
