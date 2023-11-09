@@ -100,55 +100,22 @@
                                         <a href="about.html">Sobre nosotros</a>
                                     </li>
                                     <li class="menu-item-has-children">
-                                        <a href="#">pages</a>
+                                        <a href="carreras.html">Carreras</a>
                                         <ul>
                                             <li>
-                                                <a href="categories.html">categories</a>
+                                                <a href="ingenieria-en-sistemas.html">Ingeniería en Sistemas</a>
                                             </li>
                                             <li>
-                                                <a href="feature-course.html">feature course</a>
+                                                <a href="administracion-de-empresas.html">Administracion de Empresas</a>
                                             </li>
                                             <li>
-                                                <a href="course-detail.html">course DETAIL</a>
+                                                <a href="ciencias-juridicas-y-sociales.html">Ciencias Jurídicas y Sociales</a>
                                             </li>
                                             <li>
-                                                <a href="facility.html">facility</a>
+                                                <a href="psicologia-industrial.html">Psicología Industrial</a>
                                             </li>
                                             <li>
-                                                <a href="team.html">team</a>
-                                            </li>
-                                            <li>
-                                                <a href="team-detail.html">team detail</a>
-                                            </li>
-                                            <li>
-                                                <a href="gallery.html">gallery</a>
-                                            </li>
-                                            <li>
-                                                <a href="career.html">carreer</a>
-                                            </li>
-                                            <li>
-                                                <a href="career-detail.html">carreer detail</a>
-                                            </li>
-                                            <li>
-                                                <a href="faq.html">faq</a>
-                                            </li>
-                                            <li>
-                                                <a href="testimonial.html">testimonial</a>
-                                            </li>
-                                            <li>
-                                                <a href="single-blog.html">single blog</a>
-                                            </li>
-                                            <li>
-                                                <a href="single-page.html">single page</a>
-                                            </li>
-                                            <li>
-                                                <a href="404page.html">404 page</a>
-                                            </li>
-                                            <li>
-                                                <a href="comming-soon.html">coming soon</a>
-                                            </li>
-                                            <li>
-                                                <a href="search.html">search result</a>
+                                                <a href="criminologia-y-politica-criminal.html">Criminología y Política Criminal</a>
                                             </li>
                                         </ul>
                                     </li>
@@ -209,7 +176,7 @@
                                                 </span>
                                                 <div class="details-content">
                                                     <h5>Teléfonos :</h5>
-                                                    <span>Tel. 7925-2426 //</span>
+                                                    <span>Tel. 7925-2426 - </span>
                                                     <span>Tel. 7945-2503</span>
                                                     <span>Horario de atención: 9:00 - 18:00 Hrs.</span>
                                                 </div>
@@ -275,7 +242,6 @@
         <!-- footer part -->
         <footer id="colophon" class="site-footer">
             <div class="footer-overlay"></div>
-            
             <div class="top-footer">
                 <div class="container">
                     <div class="row">
@@ -292,22 +258,22 @@
                             <div class="footer-social-links">
                                 <ul>
                                     <li>
-                                        <a href="https://www.facebook.com/" target="_blank">
+                                        <a href="https://www.facebook.com/people/UMG-Sanarate/100063982872567/?mibextid=ZbWKwL" target="_blank">
                                             <i class="fab fa-facebook-f" aria-hidden="true"></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://www.twitter.com/" target="_blank">
+                                        <a href="https://twitter.com/marianogalvez" target="_blank">
                                             <i class="fab fa-twitter" aria-hidden="true"></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://www.instagram.com/" target="_blank">
+                                        <a href="https://www.instagram.com/marianogalvez/" target="_blank">
                                             <i class="fab fa-instagram" aria-hidden="true"></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://www.youtube.com/" target="_blank">
+                                        <a href="https://www.youtube.com/@umarianogalvez" target="_blank">
                                             <i class="fab fa-youtube" aria-hidden="true"></i>
                                         </a>
                                     </li>
@@ -316,51 +282,45 @@
                         </div>
                         <div class="col-lg-3 col-md-6">
                             <aside class="widget">
-                                <h5 class="widget-title">Quick LInks</h5>
+                                <h5 class="widget-title">Menú</h5>
                                 <ul>
                                     <li>
-                                        <a href="about.html">About us</a>
+                                        <a href="about.html">Sobre nosotros</a>
                                     </li>
                                     <li>
-                                        <a href="career.html">Careers</a>
+                                        <a href="carreras.html">Carreras</a>
                                     </li>
                                     <li>
-                                        <a href="single-blog.html">News & Articles</a>
+                                        <a href="blog-archive.html">Blog</a>
                                     </li>
                                     <li>
-                                        <a href="legal-notice.html">Legal Notice</a>
-                                    </li>
-                                </ul>
-                            </aside>
-                        </div>
-                        <div class="col-lg-3 col-md-6">
-                            <aside class="widget">
-                                <h5 class="widget-title">Support</h5>
-                                <ul>
-                                    <li>
-                                        <a href="faq.html">Help Center</a>
-                                    </li>
-                                    <li>
-                                        <a href="contact.html">Contact Us</a>
-                                    </li>
-                                    <li>
-                                        <a href="product-cart.html">Payment Center</a>
-                                    </li>
-                                    <li>
-                                        <a href="about.html">Parent Community</a>
+                                        <a href="contact.php">Contacto</a>
                                     </li>
                                 </ul>
                             </aside>
                         </div>
                         <div class="col-lg-3 col-md-6">
                             <aside class="widget widget_text school-time">
-                                <h5 class="widget-title">School Hours</h5>
+                                <h5 class="widget-title">Horario de atención</h5>
                                 <span>
                                     <i aria-hidden="true" class="far fa-clock"></i>
-                                    8 AM - 5 PM , Monday - Saturday
+                                    9:00 - 18:00 Hrs.
                                 </span>
-                                <p>Aut, quae convallis minim cum ornare! Pede dictum convallis.</p>
+                                <span>
+                                    <i aria-hidden="true" class="fas fa-phone-alt"></i>
+                                    7925-2426 - 7945-2503
+                                </span>
+                                <span>
+                                    <i aria-hidden="true" class="far fa-envelope-open"></i>
+                                    info@soumgsanarate.com
+                                </span>
                                 <a href="contact.php" class="button-round-secondary ">JOIN US NOW</a>
+                            </aside>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <aside class="widget">
+                                <h5 class="widget-title">Mapa</h5>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7715.5516572052675!2d-90.197144!3d14.781653!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589ef49fde24de1%3A0x3260cb4e4d3f1163!2sUMG%20Sanarate!5e0!3m2!1ses-419!2sgt!4v1699493611697!5m2!1ses-419!2sgt" width="50" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </aside>
                         </div>
                     </div>
@@ -376,13 +336,13 @@
                             <div class="legal-list">
                                 <ul>
                                     <li>
-                                        <a href="legal-notice.html">PRIVACY POLICY</a>
+                                        <a href="#.html">POLITICAS DE PRIVACIDAD</a>
                                     </li>
                                     <li>
-                                        <a href="contact.html">SUPPORT</a>
+                                        <a href="contact.html">SOPORTE</a>
                                     </li>
                                     <li>
-                                        <a href="legal-notice.html">TERMS & CONDITION</a>
+                                        <a href="#">TERMINOS Y CONDICIONES</a>
                                     </li>
                                 </ul>
                             </div>

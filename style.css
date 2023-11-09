@@ -1276,7 +1276,7 @@ input[type=submit]:focus {
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  width: 50px;
+  width: 250px;
 }
 
 .rating-start-wrap {
