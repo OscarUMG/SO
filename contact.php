@@ -128,7 +128,7 @@
                                 </ul>
                             </nav>
                             <div class="header-btn d-inline-block">
-                                <a href="contact.php" class="button-round-secondary">JOIN US NOW</a>
+                                <a href="contact.php" class="button-round-secondary">Únete</a>
                             </div>
                         </div>
                     </div>
@@ -314,7 +314,7 @@
                                     <i aria-hidden="true" class="far fa-envelope-open"></i>
                                     info@soumgsanarate.com
                                 </span>
-                                <a href="contact.php" class="button-round-secondary ">JOIN US NOW</a>
+                                <a href="contact.php" class="button-round-secondary ">Únete</a>
                             </aside>
                         </div>
                         <div class="col-lg-3 col-md-6">
