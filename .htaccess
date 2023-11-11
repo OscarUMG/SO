@@ -1,0 +1,24 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Eliminar la extensión .html
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteRule ^([^\.]+)$ $1.html [NC,L]
+
+  # Eliminar la extensión .php
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+  # Redireccionar a la página 404 personalizada si la URL no corresponde a un archivo existente
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^ - [R=404]
+
+  </IfModule>
+
+    RewriteEngine on
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule . / [L,R=301]
+
+    ErrorDocument 404 https://soumgsanarate.com/404page.html
+    # ErrorDocument 404 http://localhost/proyectos/educator/404page
