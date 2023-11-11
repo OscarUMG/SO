@@ -143,7 +143,7 @@
                 <div class="inner-baner-container" style="background-image: url(assets/img/img-contacto-sp.png);">
                     <div class="container">
                         <div class="inner-banner-content">
-                            <h1 class="inner-title">contacto</h1>
+                            <h1 class="inner-title">Contacto</h1>
                         </div>
                     </div>
                 </div>
